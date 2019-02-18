@@ -1,4 +1,11 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .App {
+  grid-column-start: 0;
+  grid-column-end: 5;
   text-align: center;
 }
 

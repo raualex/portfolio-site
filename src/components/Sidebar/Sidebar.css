@@ -1,0 +1,8 @@
+.nav-bar-container {
+  grid-column-start: 0;
+  grid-column-end: 1;
+}
+
+.profile-pic {
+  height: 100px;
+}
