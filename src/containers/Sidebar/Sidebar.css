@@ -1,0 +1,33 @@
+.nav-bar-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  justify-content: center;
+}
+
+.profile-pic {
+  border: solid 2px #000;
+  border-radius: 20px;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  font-size: 1.5em;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.active-item {
+  border-bottom: solid 2px #000;
+  border-top: solid 2px #000;
+}

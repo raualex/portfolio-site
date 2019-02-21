@@ -15,7 +15,12 @@ export class Sidebar extends Component {
           alt='Profile Picture'
           className='profile-pic' 
         />
-        <p>Navigation!</p>
+        <ul className='nav-links'>
+          <li className='nav-item active-item'>Bio</li>
+          <li className='nav-item'>Skills</li>
+          <li className='nav-item'>Projects</li>
+          <li className='nav-item'>Contact</li>
+        </ul>
       </div>
     )
   }

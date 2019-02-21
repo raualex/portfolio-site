@@ -9,8 +9,8 @@ export class Header extends Component {
   render() {
     return(
       <div className='header-container'>
-        <h1>Alexander Rau</h1>
-        <h2>Front-End Web Developer</h2>
+        <h1 className='name-title'>A l e x a n d e r<span className='last-name-title'>R a u</span></h1>
+        <h2 className='job-title'>Front-End Web Developer</h2>
       </div>
     )
   }
