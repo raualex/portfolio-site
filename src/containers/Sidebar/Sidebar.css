@@ -13,6 +13,7 @@
   border: solid 2px #000;
   border-radius: 20px;
   height: 200px;
+  margin-bottom: 40px;
   margin-top: 40px;
 }
 
@@ -23,8 +24,8 @@
 
 .nav-item {
   font-size: 1.5em;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-bottom: 45px;
+  padding-top: 45px;
 }
 
 .active-item {
