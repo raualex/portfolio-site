@@ -28,6 +28,10 @@
   padding-top: 45px;
 }
 
+.nav-item:hover {
+  cursor: pointer;
+}
+
 .inactive-item {
   border-bottom: solid 2px #fff;
   border-top: solid 2px #fff;
