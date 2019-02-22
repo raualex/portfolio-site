@@ -28,19 +28,19 @@ export class Sidebar extends Component {
         />
         <ul className='nav-links'>
           <li 
-            className={selectedNav === 'Bio' ? 'nav-item active-item ' : 'nav-item'}
+            className={selectedNav === 'Bio' ? 'nav-item active-item ' : 'nav-item inactive-item'}
             onClick={this.setNav}
           >Bio</li>
           <li 
-            className={selectedNav === 'Skills' ? 'nav-item active-item ' : 'nav-item'}
+            className={selectedNav === 'Skills' ? 'nav-item active-item ' : 'nav-item inactive-item'}
             onClick={this.setNav}
           >Skills</li>
           <li 
-            className={selectedNav === 'Projects' ? 'nav-item active-item ' : 'nav-item'}
+            className={selectedNav === 'Projects' ? 'nav-item active-item ' : 'nav-item inactive-item'}
             onClick={this.setNav}
           >Projects</li>
           <li 
-            className={selectedNav === 'Contact' ? 'nav-item active-item ' : 'nav-item'}
+            className={selectedNav === 'Contact' ? 'nav-item active-item ' : 'nav-item inactive-item'}
             onClick={this.setNav}
           >Contact</li>
         </ul>

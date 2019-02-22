@@ -28,6 +28,11 @@
   padding-top: 45px;
 }
 
+.inactive-item {
+  border-bottom: solid 2px #fff;
+  border-top: solid 2px #fff;
+}
+
 .active-item {
   border-bottom: solid 2px #000;
   border-top: solid 2px #000;
