@@ -4,3 +4,23 @@
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
+.skills-box {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+}
+
+.front-end-skills,
+.back-end-skills,
+.testing-skills {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.program-logo {
+  height: 100px;
+  width: 270px;
+}

@@ -18,9 +18,76 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        My Skills!
-      </h1>,
+      "children": <div
+        className="skills-box"
+      >
+        <div
+          className="front-end-skills"
+        >
+          <h1>
+            Front-End
+          </h1>
+          <img
+            alt="react logo"
+            className="program-logo"
+            src="react-logo.png"
+          />
+          <img
+            alt="redux logo"
+            className="program-logo"
+            src="redux-logo.png"
+          />
+          <img
+            alt="javscript html and css logo"
+            className="program-logo"
+            src="javascript-html-css-logos.png"
+          />
+          <img
+            alt="j query logo"
+            className="program-logo"
+            src="JQuery-logo.png"
+          />
+        </div>
+        <div
+          className="back-end-skills"
+        >
+          <h1>
+            Back-End
+          </h1>
+          <img
+            alt="node logo"
+            className="program-logo"
+            src="node-logo.png"
+          />
+          <img
+            alt="express logo"
+            className="program-logo"
+            src="expressjs-logo.png"
+          />
+          <img
+            alt="knex logo"
+            className="program-logo"
+            src="knex-logo.png"
+          />
+          <img
+            alt="postgres logo"
+            className="program-logo"
+            src="postgresql-logo.png"
+          />
+          <img
+            alt="microsoft sql server logo"
+            className="program-logo"
+            src="microsoft-sql-server-logo.png"
+          />
+        </div>
+        <div
+          className="testing-skills"
+        >
+          <h1>
+            Testing
+          </h1>
+        </div>
+      </div>,
       "className": "skills-container",
     },
     "ref": null,
@@ -29,11 +96,322 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "My Skills!",
+        "children": Array [
+          <div
+            className="front-end-skills"
+          >
+            <h1>
+              Front-End
+            </h1>
+            <img
+              alt="react logo"
+              className="program-logo"
+              src="react-logo.png"
+            />
+            <img
+              alt="redux logo"
+              className="program-logo"
+              src="redux-logo.png"
+            />
+            <img
+              alt="javscript html and css logo"
+              className="program-logo"
+              src="javascript-html-css-logos.png"
+            />
+            <img
+              alt="j query logo"
+              className="program-logo"
+              src="JQuery-logo.png"
+            />
+          </div>,
+          <div
+            className="back-end-skills"
+          >
+            <h1>
+              Back-End
+            </h1>
+            <img
+              alt="node logo"
+              className="program-logo"
+              src="node-logo.png"
+            />
+            <img
+              alt="express logo"
+              className="program-logo"
+              src="expressjs-logo.png"
+            />
+            <img
+              alt="knex logo"
+              className="program-logo"
+              src="knex-logo.png"
+            />
+            <img
+              alt="postgres logo"
+              className="program-logo"
+              src="postgresql-logo.png"
+            />
+            <img
+              alt="microsoft sql server logo"
+              className="program-logo"
+              src="microsoft-sql-server-logo.png"
+            />
+          </div>,
+          <div
+            className="testing-skills"
+          >
+            <h1>
+              Testing
+            </h1>
+          </div>,
+        ],
+        "className": "skills-box",
       },
       "ref": null,
-      "rendered": "My Skills!",
-      "type": "h1",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Front-End
+              </h1>,
+              <img
+                alt="react logo"
+                className="program-logo"
+                src="react-logo.png"
+              />,
+              <img
+                alt="redux logo"
+                className="program-logo"
+                src="redux-logo.png"
+              />,
+              <img
+                alt="javscript html and css logo"
+                className="program-logo"
+                src="javascript-html-css-logos.png"
+              />,
+              <img
+                alt="j query logo"
+                className="program-logo"
+                src="JQuery-logo.png"
+              />,
+            ],
+            "className": "front-end-skills",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Front-End",
+              },
+              "ref": null,
+              "rendered": "Front-End",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "react logo",
+                "className": "program-logo",
+                "src": "react-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "redux logo",
+                "className": "program-logo",
+                "src": "redux-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "javscript html and css logo",
+                "className": "program-logo",
+                "src": "javascript-html-css-logos.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "j query logo",
+                "className": "program-logo",
+                "src": "JQuery-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Back-End
+              </h1>,
+              <img
+                alt="node logo"
+                className="program-logo"
+                src="node-logo.png"
+              />,
+              <img
+                alt="express logo"
+                className="program-logo"
+                src="expressjs-logo.png"
+              />,
+              <img
+                alt="knex logo"
+                className="program-logo"
+                src="knex-logo.png"
+              />,
+              <img
+                alt="postgres logo"
+                className="program-logo"
+                src="postgresql-logo.png"
+              />,
+              <img
+                alt="microsoft sql server logo"
+                className="program-logo"
+                src="microsoft-sql-server-logo.png"
+              />,
+            ],
+            "className": "back-end-skills",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Back-End",
+              },
+              "ref": null,
+              "rendered": "Back-End",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "node logo",
+                "className": "program-logo",
+                "src": "node-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "express logo",
+                "className": "program-logo",
+                "src": "expressjs-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "knex logo",
+                "className": "program-logo",
+                "src": "knex-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "postgres logo",
+                "className": "program-logo",
+                "src": "postgresql-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "microsoft sql server logo",
+                "className": "program-logo",
+                "src": "microsoft-sql-server-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1>
+              Testing
+            </h1>,
+            "className": "testing-skills",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Testing",
+            },
+            "ref": null,
+            "rendered": "Testing",
+            "type": "h1",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
     },
     "type": "div",
   },
@@ -43,9 +421,76 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-          My Skills!
-        </h1>,
+        "children": <div
+          className="skills-box"
+        >
+          <div
+            className="front-end-skills"
+          >
+            <h1>
+              Front-End
+            </h1>
+            <img
+              alt="react logo"
+              className="program-logo"
+              src="react-logo.png"
+            />
+            <img
+              alt="redux logo"
+              className="program-logo"
+              src="redux-logo.png"
+            />
+            <img
+              alt="javscript html and css logo"
+              className="program-logo"
+              src="javascript-html-css-logos.png"
+            />
+            <img
+              alt="j query logo"
+              className="program-logo"
+              src="JQuery-logo.png"
+            />
+          </div>
+          <div
+            className="back-end-skills"
+          >
+            <h1>
+              Back-End
+            </h1>
+            <img
+              alt="node logo"
+              className="program-logo"
+              src="node-logo.png"
+            />
+            <img
+              alt="express logo"
+              className="program-logo"
+              src="expressjs-logo.png"
+            />
+            <img
+              alt="knex logo"
+              className="program-logo"
+              src="knex-logo.png"
+            />
+            <img
+              alt="postgres logo"
+              className="program-logo"
+              src="postgresql-logo.png"
+            />
+            <img
+              alt="microsoft sql server logo"
+              className="program-logo"
+              src="microsoft-sql-server-logo.png"
+            />
+          </div>
+          <div
+            className="testing-skills"
+          >
+            <h1>
+              Testing
+            </h1>
+          </div>
+        </div>,
         "className": "skills-container",
       },
       "ref": null,
@@ -54,11 +499,322 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "My Skills!",
+          "children": Array [
+            <div
+              className="front-end-skills"
+            >
+              <h1>
+                Front-End
+              </h1>
+              <img
+                alt="react logo"
+                className="program-logo"
+                src="react-logo.png"
+              />
+              <img
+                alt="redux logo"
+                className="program-logo"
+                src="redux-logo.png"
+              />
+              <img
+                alt="javscript html and css logo"
+                className="program-logo"
+                src="javascript-html-css-logos.png"
+              />
+              <img
+                alt="j query logo"
+                className="program-logo"
+                src="JQuery-logo.png"
+              />
+            </div>,
+            <div
+              className="back-end-skills"
+            >
+              <h1>
+                Back-End
+              </h1>
+              <img
+                alt="node logo"
+                className="program-logo"
+                src="node-logo.png"
+              />
+              <img
+                alt="express logo"
+                className="program-logo"
+                src="expressjs-logo.png"
+              />
+              <img
+                alt="knex logo"
+                className="program-logo"
+                src="knex-logo.png"
+              />
+              <img
+                alt="postgres logo"
+                className="program-logo"
+                src="postgresql-logo.png"
+              />
+              <img
+                alt="microsoft sql server logo"
+                className="program-logo"
+                src="microsoft-sql-server-logo.png"
+              />
+            </div>,
+            <div
+              className="testing-skills"
+            >
+              <h1>
+                Testing
+              </h1>
+            </div>,
+          ],
+          "className": "skills-box",
         },
         "ref": null,
-        "rendered": "My Skills!",
-        "type": "h1",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1>
+                  Front-End
+                </h1>,
+                <img
+                  alt="react logo"
+                  className="program-logo"
+                  src="react-logo.png"
+                />,
+                <img
+                  alt="redux logo"
+                  className="program-logo"
+                  src="redux-logo.png"
+                />,
+                <img
+                  alt="javscript html and css logo"
+                  className="program-logo"
+                  src="javascript-html-css-logos.png"
+                />,
+                <img
+                  alt="j query logo"
+                  className="program-logo"
+                  src="JQuery-logo.png"
+                />,
+              ],
+              "className": "front-end-skills",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Front-End",
+                },
+                "ref": null,
+                "rendered": "Front-End",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "react logo",
+                  "className": "program-logo",
+                  "src": "react-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "redux logo",
+                  "className": "program-logo",
+                  "src": "redux-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "javscript html and css logo",
+                  "className": "program-logo",
+                  "src": "javascript-html-css-logos.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "j query logo",
+                  "className": "program-logo",
+                  "src": "JQuery-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1>
+                  Back-End
+                </h1>,
+                <img
+                  alt="node logo"
+                  className="program-logo"
+                  src="node-logo.png"
+                />,
+                <img
+                  alt="express logo"
+                  className="program-logo"
+                  src="expressjs-logo.png"
+                />,
+                <img
+                  alt="knex logo"
+                  className="program-logo"
+                  src="knex-logo.png"
+                />,
+                <img
+                  alt="postgres logo"
+                  className="program-logo"
+                  src="postgresql-logo.png"
+                />,
+                <img
+                  alt="microsoft sql server logo"
+                  className="program-logo"
+                  src="microsoft-sql-server-logo.png"
+                />,
+              ],
+              "className": "back-end-skills",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Back-End",
+                },
+                "ref": null,
+                "rendered": "Back-End",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "node logo",
+                  "className": "program-logo",
+                  "src": "node-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "express logo",
+                  "className": "program-logo",
+                  "src": "expressjs-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "knex logo",
+                  "className": "program-logo",
+                  "src": "knex-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "postgres logo",
+                  "className": "program-logo",
+                  "src": "postgresql-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "microsoft sql server logo",
+                  "className": "program-logo",
+                  "src": "microsoft-sql-server-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h1>
+                Testing
+              </h1>,
+              "className": "testing-skills",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Testing",
+              },
+              "ref": null,
+              "rendered": "Testing",
+              "type": "h1",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
       },
       "type": "div",
     },
