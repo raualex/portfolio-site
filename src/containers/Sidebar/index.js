@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { NavLink } from 'react-router-dom';
 import { selectNavBtn } from '../../actions/selection-actions';
 import './Sidebar.css';
 import profile from '../../utils/assets/profile.jpg';
@@ -26,24 +27,32 @@ export class Sidebar extends Component {
           alt='Profile Picture'
           className='profile-pic' 
         />
-        <ul className='nav-links'>
-          <li 
+        <div className='nav-links'>
+          <NavLink to='/bio'
             className={selectedNav === 'Bio' ? 'nav-item active-item ' : 'nav-item inactive-item'}
             onClick={this.setNav}
-          >Bio</li>
-          <li 
+          >
+            Bio
+          </NavLink>
+          <NavLink to='/skills'
             className={selectedNav === 'Skills' ? 'nav-item active-item ' : 'nav-item inactive-item'}
             onClick={this.setNav}
-          >Skills</li>
-          <li 
+          >
+            Skills
+          </NavLink>
+          <NavLink to='/projects'
             className={selectedNav === 'Projects' ? 'nav-item active-item ' : 'nav-item inactive-item'}
             onClick={this.setNav}
-          >Projects</li>
-          <li 
+          >
+            Projects
+          </NavLink>
+          <NavLink to='/contact'
             className={selectedNav === 'Contact' ? 'nav-item active-item ' : 'nav-item inactive-item'}
             onClick={this.setNav}
-          >Contact</li>
-        </ul>
+          >
+            Contact
+          </NavLink>
+        </div>
       </div>
     )
   }
