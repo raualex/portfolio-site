@@ -45,7 +45,7 @@ ShallowWrapper {
           <img
             alt="j query logo"
             className="program-logo"
-            src="JQuery-logo.png"
+            src="jquery-logo.png"
           />
         </div>
         <div
@@ -121,7 +121,7 @@ ShallowWrapper {
             <img
               alt="j query logo"
               className="program-logo"
-              src="JQuery-logo.png"
+              src="jquery-logo.png"
             />
           </div>,
           <div
@@ -195,7 +195,7 @@ ShallowWrapper {
               <img
                 alt="j query logo"
                 className="program-logo"
-                src="JQuery-logo.png"
+                src="jquery-logo.png"
               />,
             ],
             "className": "front-end-skills",
@@ -259,7 +259,7 @@ ShallowWrapper {
               "props": Object {
                 "alt": "j query logo",
                 "className": "program-logo",
-                "src": "JQuery-logo.png",
+                "src": "jquery-logo.png",
               },
               "ref": null,
               "rendered": null,
@@ -448,7 +448,7 @@ ShallowWrapper {
             <img
               alt="j query logo"
               className="program-logo"
-              src="JQuery-logo.png"
+              src="jquery-logo.png"
             />
           </div>
           <div
@@ -524,7 +524,7 @@ ShallowWrapper {
               <img
                 alt="j query logo"
                 className="program-logo"
-                src="JQuery-logo.png"
+                src="jquery-logo.png"
               />
             </div>,
             <div
@@ -598,7 +598,7 @@ ShallowWrapper {
                 <img
                   alt="j query logo"
                   className="program-logo"
-                  src="JQuery-logo.png"
+                  src="jquery-logo.png"
                 />,
               ],
               "className": "front-end-skills",
@@ -662,7 +662,7 @@ ShallowWrapper {
                 "props": Object {
                   "alt": "j query logo",
                   "className": "program-logo",
-                  "src": "JQuery-logo.png",
+                  "src": "jquery-logo.png",
                 },
                 "ref": null,
                 "rendered": null,
