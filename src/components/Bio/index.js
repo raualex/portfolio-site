@@ -8,7 +8,7 @@ export class Bio extends Component {
 
   render() {
     return(
-      <div>
+      <div className='bio-container'>
         <h1>My Bio!</h1>
       </div>
     )

@@ -8,7 +8,7 @@ export class Projects extends Component {
 
   render() {
     return(
-      <div>
+      <div className='projects-container'>
         <h1>My Projects!</h1>
       </div>
     )

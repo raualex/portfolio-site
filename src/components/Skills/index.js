@@ -8,7 +8,7 @@ export class Skills extends Component {
 
   render() {
     return(
-      <div>
+      <div className='skills-container'>
         <h1>My Skills!</h1>
       </div>
     )
