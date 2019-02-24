@@ -9,6 +9,18 @@ import express from '../../utils/assets/expressjs-logo.png';
 import knex from '../../utils/assets/knex-logo.png';
 import postgresql from '../../utils/assets/postgresql-logo.png';
 import microsoftsql from '../../utils/assets/microsoft-sql-server-logo.png';
+import chaimocha from '../../utils/assets/chai-mocha.png';
+import enzymejest from '../../utils/assets/enzyme-jest.png';
+import travis from '../../utils/assets/travisCI-logo.png';
+import git from '../../utils/assets/git-logo.png';
+import github from '../../utils/assets/github-logo.png';
+import heroku from '../../utils/assets/heroku-logo.png';
+import waffleio from '../../utils/assets/waffleio.png';
+import jira from '../../utils/assets/jira-logo.png';
+import ember from '../../utils/assets/ember-logo.svg';
+import vue from '../../utils/assets/vue-logo.svg';
+import angular from '../../utils/assets/angular-logo.svg';
+import cucumber from '../../utils/assets/cucumber-logo.png';
 
 export class Skills extends Component {
   constructor() {
@@ -36,6 +48,24 @@ export class Skills extends Component {
           </div>
           <div className='testing-skills'>
             <h1>Testing</h1>
+            <img src={chaimocha} alt='chai and mocha logos' className='program-logo' />
+            <img src={enzymejest} alt='enzyme and jest logos' className='program-logo' />
+            <img src={travis} alt='Travis CI logo' className='program-logo' />
+          </div>
+          <div className='workflow-skills'>
+            <h1>Workflow/Tools</h1>
+            <img src={git} alt='git logo' className='program-logo' />
+            <img src={github} alt='github logo' className='program-logo' />
+            <img src={heroku} alt='heroku logo' className='program-logo' />
+            <img src={waffleio} alt='waffle IO logo' className='program-logo' />
+            <img src={jira} alt='jira logo' className='program-logo' />
+          </div>
+          <div className='currently-learning-skills'>
+            <h1>Currently Learning</h1>
+            <img src={ember} alt='ember logo' className='program-logo' />
+            <img src={vue} alt='vue logo' className='program-logo' />
+            <img src={angular} alt='angular logo' className='program-logo' />
+            <img src={cucumber} alt='cucumber logo' className='program-logo' />
           </div>
         </div>
       </div>

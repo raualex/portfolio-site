@@ -13,7 +13,9 @@
 
 .front-end-skills,
 .back-end-skills,
-.testing-skills {
+.testing-skills,
+.workflow-skills,
+.currently-learning-skills {
   align-items: center;
   display: flex;
   flex-direction: column;
