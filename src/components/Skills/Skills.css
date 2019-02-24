@@ -18,9 +18,13 @@
 .workflow-skills,
 .currently-learning-skills {
   align-items: center;
+  border: solid 2px #000;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  height: 480px;
+  justify-content: flex-start;
+  margin: 0 20px 20px 20px;
+  width: 280px;
 }
 
 .angular-logo {
@@ -44,7 +48,7 @@
 }
 
 .enzymejest-logos {
-  height: 56px;
+  height: 54px;
   width: 140px;
 }
 
@@ -104,7 +108,7 @@
 }
 
 .react-logo {
-  height: 64px;
+  height: 68px;
   width: 154px;
 }
 
