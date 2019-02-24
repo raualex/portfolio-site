@@ -9,7 +9,9 @@
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
+  height: 504px;
   justify-content: center;
+  overflow: auto;
 }
 
 .front-end-skills,
