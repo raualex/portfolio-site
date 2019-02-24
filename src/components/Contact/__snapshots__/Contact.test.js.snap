@@ -18,23 +18,157 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        My Contact Info!
-      </h1>,
+      "children": Array [
+        <h1>
+          Contact Info
+        </h1>,
+        <div
+          className="contact-links"
+        >
+          <a
+            href="Alexander-Rau-Resume.pdf"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Resume
+          </a>
+          <a
+            href="https://github.com/raualex"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/alexander-rau/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="mailto:raualexander86@gmail.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Email
+          </a>
+        </div>,
+      ],
       "className": "contact-container",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "My Contact Info!",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Contact Info",
+        },
+        "ref": null,
+        "rendered": "Contact Info",
+        "type": "h1",
       },
-      "ref": null,
-      "rendered": "My Contact Info!",
-      "type": "h1",
-    },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="Alexander-Rau-Resume.pdf"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Resume
+            </a>,
+            <a
+              href="https://github.com/raualex"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              GitHub
+            </a>,
+            <a
+              href="https://www.linkedin.com/in/alexander-rau/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              LinkedIn
+            </a>,
+            <a
+              href="mailto:raualexander86@gmail.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Email
+            </a>,
+          ],
+          "className": "contact-links",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Resume",
+              "href": "Alexander-Rau-Resume.pdf",
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": "Resume",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "GitHub",
+              "href": "https://github.com/raualex",
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": "GitHub",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "LinkedIn",
+              "href": "https://www.linkedin.com/in/alexander-rau/",
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": "LinkedIn",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Email",
+              "href": "mailto:raualexander86@gmail.com",
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": "Email",
+            "type": "a",
+          },
+        ],
+        "type": "div",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -43,23 +177,157 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-          My Contact Info!
-        </h1>,
+        "children": Array [
+          <h1>
+            Contact Info
+          </h1>,
+          <div
+            className="contact-links"
+          >
+            <a
+              href="Alexander-Rau-Resume.pdf"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Resume
+            </a>
+            <a
+              href="https://github.com/raualex"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/alexander-rau/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="mailto:raualexander86@gmail.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Email
+            </a>
+          </div>,
+        ],
         "className": "contact-container",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "My Contact Info!",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Contact Info",
+          },
+          "ref": null,
+          "rendered": "Contact Info",
+          "type": "h1",
         },
-        "ref": null,
-        "rendered": "My Contact Info!",
-        "type": "h1",
-      },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="Alexander-Rau-Resume.pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Resume
+              </a>,
+              <a
+                href="https://github.com/raualex"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>,
+              <a
+                href="https://www.linkedin.com/in/alexander-rau/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                LinkedIn
+              </a>,
+              <a
+                href="mailto:raualexander86@gmail.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Email
+              </a>,
+            ],
+            "className": "contact-links",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Resume",
+                "href": "Alexander-Rau-Resume.pdf",
+                "rel": "noopener noreferrer",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": "Resume",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "GitHub",
+                "href": "https://github.com/raualex",
+                "rel": "noopener noreferrer",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": "GitHub",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "LinkedIn",
+                "href": "https://www.linkedin.com/in/alexander-rau/",
+                "rel": "noopener noreferrer",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": "LinkedIn",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Email",
+                "href": "mailto:raualexander86@gmail.com",
+                "rel": "noopener noreferrer",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": "Email",
+              "type": "a",
+            },
+          ],
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],

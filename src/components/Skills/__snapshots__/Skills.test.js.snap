@@ -29,22 +29,22 @@ ShallowWrapper {
           </h1>
           <img
             alt="react logo"
-            className="program-logo"
+            className="react-logo"
             src="react-logo.png"
           />
           <img
             alt="redux logo"
-            className="program-logo"
+            className="redux-logo"
             src="redux-logo.png"
           />
           <img
             alt="javscript html and css logo"
-            className="program-logo"
+            className="htmlcssjs-logos"
             src="javascript-html-css-logos.png"
           />
           <img
             alt="j query logo"
-            className="program-logo"
+            className="jquery-logo"
             src="jquery-logo.png"
           />
         </div>
@@ -56,27 +56,27 @@ ShallowWrapper {
           </h1>
           <img
             alt="node logo"
-            className="program-logo"
+            className="node-logo"
             src="node-logo.png"
           />
           <img
             alt="express logo"
-            className="program-logo"
+            className="express-logo"
             src="expressjs-logo.png"
           />
           <img
             alt="knex logo"
-            className="program-logo"
+            className="knex-logo"
             src="knex-logo.png"
           />
           <img
             alt="postgres logo"
-            className="program-logo"
+            className="postgresql-logo"
             src="postgresql-logo.png"
           />
           <img
             alt="microsoft sql server logo"
-            className="program-logo"
+            className="mssql-logo"
             src="microsoft-sql-server-logo.png"
           />
         </div>
@@ -88,17 +88,17 @@ ShallowWrapper {
           </h1>
           <img
             alt="chai and mocha logos"
-            className="program-logo"
+            className="chaimocha-logos"
             src="chai-mocha.png"
           />
           <img
             alt="enzyme and jest logos"
-            className="program-logo"
+            className="enzymejest-logos"
             src="enzyme-jest.png"
           />
           <img
             alt="Travis CI logo"
-            className="program-logo"
+            className="travisci-logo"
             src="travisCI-logo.png"
           />
         </div>
@@ -110,27 +110,27 @@ ShallowWrapper {
           </h1>
           <img
             alt="git logo"
-            className="program-logo"
+            className="git-logo"
             src="git-logo.png"
           />
           <img
             alt="github logo"
-            className="program-logo"
+            className="github-logo"
             src="github-logo.png"
           />
           <img
             alt="heroku logo"
-            className="program-logo"
+            className="heroku-logo"
             src="heroku-logo.png"
           />
           <img
             alt="waffle IO logo"
-            className="program-logo"
+            className="waffleio-logo"
             src="waffleio.png"
           />
           <img
             alt="jira logo"
-            className="program-logo"
+            className="jira-logo"
             src="jira-logo.png"
           />
         </div>
@@ -142,22 +142,22 @@ ShallowWrapper {
           </h1>
           <img
             alt="ember logo"
-            className="program-logo"
+            className="ember-logo"
             src="ember-logo.svg"
           />
           <img
             alt="vue logo"
-            className="program-logo"
+            className="vue-logo"
             src="vue-logo.svg"
           />
           <img
             alt="angular logo"
-            className="program-logo"
+            className="angular-logo"
             src="angular-logo.svg"
           />
           <img
             alt="cucumber logo"
-            className="program-logo"
+            className="cucumber-logo"
             src="cucumber-logo.png"
           />
         </div>
@@ -179,22 +179,22 @@ ShallowWrapper {
             </h1>
             <img
               alt="react logo"
-              className="program-logo"
+              className="react-logo"
               src="react-logo.png"
             />
             <img
               alt="redux logo"
-              className="program-logo"
+              className="redux-logo"
               src="redux-logo.png"
             />
             <img
               alt="javscript html and css logo"
-              className="program-logo"
+              className="htmlcssjs-logos"
               src="javascript-html-css-logos.png"
             />
             <img
               alt="j query logo"
-              className="program-logo"
+              className="jquery-logo"
               src="jquery-logo.png"
             />
           </div>,
@@ -206,27 +206,27 @@ ShallowWrapper {
             </h1>
             <img
               alt="node logo"
-              className="program-logo"
+              className="node-logo"
               src="node-logo.png"
             />
             <img
               alt="express logo"
-              className="program-logo"
+              className="express-logo"
               src="expressjs-logo.png"
             />
             <img
               alt="knex logo"
-              className="program-logo"
+              className="knex-logo"
               src="knex-logo.png"
             />
             <img
               alt="postgres logo"
-              className="program-logo"
+              className="postgresql-logo"
               src="postgresql-logo.png"
             />
             <img
               alt="microsoft sql server logo"
-              className="program-logo"
+              className="mssql-logo"
               src="microsoft-sql-server-logo.png"
             />
           </div>,
@@ -238,17 +238,17 @@ ShallowWrapper {
             </h1>
             <img
               alt="chai and mocha logos"
-              className="program-logo"
+              className="chaimocha-logos"
               src="chai-mocha.png"
             />
             <img
               alt="enzyme and jest logos"
-              className="program-logo"
+              className="enzymejest-logos"
               src="enzyme-jest.png"
             />
             <img
               alt="Travis CI logo"
-              className="program-logo"
+              className="travisci-logo"
               src="travisCI-logo.png"
             />
           </div>,
@@ -260,27 +260,27 @@ ShallowWrapper {
             </h1>
             <img
               alt="git logo"
-              className="program-logo"
+              className="git-logo"
               src="git-logo.png"
             />
             <img
               alt="github logo"
-              className="program-logo"
+              className="github-logo"
               src="github-logo.png"
             />
             <img
               alt="heroku logo"
-              className="program-logo"
+              className="heroku-logo"
               src="heroku-logo.png"
             />
             <img
               alt="waffle IO logo"
-              className="program-logo"
+              className="waffleio-logo"
               src="waffleio.png"
             />
             <img
               alt="jira logo"
-              className="program-logo"
+              className="jira-logo"
               src="jira-logo.png"
             />
           </div>,
@@ -292,22 +292,22 @@ ShallowWrapper {
             </h1>
             <img
               alt="ember logo"
-              className="program-logo"
+              className="ember-logo"
               src="ember-logo.svg"
             />
             <img
               alt="vue logo"
-              className="program-logo"
+              className="vue-logo"
               src="vue-logo.svg"
             />
             <img
               alt="angular logo"
-              className="program-logo"
+              className="angular-logo"
               src="angular-logo.svg"
             />
             <img
               alt="cucumber logo"
-              className="program-logo"
+              className="cucumber-logo"
               src="cucumber-logo.png"
             />
           </div>,
@@ -327,22 +327,22 @@ ShallowWrapper {
               </h1>,
               <img
                 alt="react logo"
-                className="program-logo"
+                className="react-logo"
                 src="react-logo.png"
               />,
               <img
                 alt="redux logo"
-                className="program-logo"
+                className="redux-logo"
                 src="redux-logo.png"
               />,
               <img
                 alt="javscript html and css logo"
-                className="program-logo"
+                className="htmlcssjs-logos"
                 src="javascript-html-css-logos.png"
               />,
               <img
                 alt="j query logo"
-                className="program-logo"
+                className="jquery-logo"
                 src="jquery-logo.png"
               />,
             ],
@@ -367,7 +367,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "react logo",
-                "className": "program-logo",
+                "className": "react-logo",
                 "src": "react-logo.png",
               },
               "ref": null,
@@ -380,7 +380,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "redux logo",
-                "className": "program-logo",
+                "className": "redux-logo",
                 "src": "redux-logo.png",
               },
               "ref": null,
@@ -393,7 +393,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "javscript html and css logo",
-                "className": "program-logo",
+                "className": "htmlcssjs-logos",
                 "src": "javascript-html-css-logos.png",
               },
               "ref": null,
@@ -406,7 +406,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "j query logo",
-                "className": "program-logo",
+                "className": "jquery-logo",
                 "src": "jquery-logo.png",
               },
               "ref": null,
@@ -427,27 +427,27 @@ ShallowWrapper {
               </h1>,
               <img
                 alt="node logo"
-                className="program-logo"
+                className="node-logo"
                 src="node-logo.png"
               />,
               <img
                 alt="express logo"
-                className="program-logo"
+                className="express-logo"
                 src="expressjs-logo.png"
               />,
               <img
                 alt="knex logo"
-                className="program-logo"
+                className="knex-logo"
                 src="knex-logo.png"
               />,
               <img
                 alt="postgres logo"
-                className="program-logo"
+                className="postgresql-logo"
                 src="postgresql-logo.png"
               />,
               <img
                 alt="microsoft sql server logo"
-                className="program-logo"
+                className="mssql-logo"
                 src="microsoft-sql-server-logo.png"
               />,
             ],
@@ -472,7 +472,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "node logo",
-                "className": "program-logo",
+                "className": "node-logo",
                 "src": "node-logo.png",
               },
               "ref": null,
@@ -485,7 +485,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "express logo",
-                "className": "program-logo",
+                "className": "express-logo",
                 "src": "expressjs-logo.png",
               },
               "ref": null,
@@ -498,7 +498,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "knex logo",
-                "className": "program-logo",
+                "className": "knex-logo",
                 "src": "knex-logo.png",
               },
               "ref": null,
@@ -511,7 +511,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "postgres logo",
-                "className": "program-logo",
+                "className": "postgresql-logo",
                 "src": "postgresql-logo.png",
               },
               "ref": null,
@@ -524,7 +524,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "microsoft sql server logo",
-                "className": "program-logo",
+                "className": "mssql-logo",
                 "src": "microsoft-sql-server-logo.png",
               },
               "ref": null,
@@ -545,17 +545,17 @@ ShallowWrapper {
               </h1>,
               <img
                 alt="chai and mocha logos"
-                className="program-logo"
+                className="chaimocha-logos"
                 src="chai-mocha.png"
               />,
               <img
                 alt="enzyme and jest logos"
-                className="program-logo"
+                className="enzymejest-logos"
                 src="enzyme-jest.png"
               />,
               <img
                 alt="Travis CI logo"
-                className="program-logo"
+                className="travisci-logo"
                 src="travisCI-logo.png"
               />,
             ],
@@ -580,7 +580,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "chai and mocha logos",
-                "className": "program-logo",
+                "className": "chaimocha-logos",
                 "src": "chai-mocha.png",
               },
               "ref": null,
@@ -593,7 +593,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "enzyme and jest logos",
-                "className": "program-logo",
+                "className": "enzymejest-logos",
                 "src": "enzyme-jest.png",
               },
               "ref": null,
@@ -606,7 +606,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "Travis CI logo",
-                "className": "program-logo",
+                "className": "travisci-logo",
                 "src": "travisCI-logo.png",
               },
               "ref": null,
@@ -627,27 +627,27 @@ ShallowWrapper {
               </h1>,
               <img
                 alt="git logo"
-                className="program-logo"
+                className="git-logo"
                 src="git-logo.png"
               />,
               <img
                 alt="github logo"
-                className="program-logo"
+                className="github-logo"
                 src="github-logo.png"
               />,
               <img
                 alt="heroku logo"
-                className="program-logo"
+                className="heroku-logo"
                 src="heroku-logo.png"
               />,
               <img
                 alt="waffle IO logo"
-                className="program-logo"
+                className="waffleio-logo"
                 src="waffleio.png"
               />,
               <img
                 alt="jira logo"
-                className="program-logo"
+                className="jira-logo"
                 src="jira-logo.png"
               />,
             ],
@@ -672,7 +672,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "git logo",
-                "className": "program-logo",
+                "className": "git-logo",
                 "src": "git-logo.png",
               },
               "ref": null,
@@ -685,7 +685,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "github logo",
-                "className": "program-logo",
+                "className": "github-logo",
                 "src": "github-logo.png",
               },
               "ref": null,
@@ -698,7 +698,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "heroku logo",
-                "className": "program-logo",
+                "className": "heroku-logo",
                 "src": "heroku-logo.png",
               },
               "ref": null,
@@ -711,7 +711,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "waffle IO logo",
-                "className": "program-logo",
+                "className": "waffleio-logo",
                 "src": "waffleio.png",
               },
               "ref": null,
@@ -724,7 +724,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "jira logo",
-                "className": "program-logo",
+                "className": "jira-logo",
                 "src": "jira-logo.png",
               },
               "ref": null,
@@ -745,22 +745,22 @@ ShallowWrapper {
               </h1>,
               <img
                 alt="ember logo"
-                className="program-logo"
+                className="ember-logo"
                 src="ember-logo.svg"
               />,
               <img
                 alt="vue logo"
-                className="program-logo"
+                className="vue-logo"
                 src="vue-logo.svg"
               />,
               <img
                 alt="angular logo"
-                className="program-logo"
+                className="angular-logo"
                 src="angular-logo.svg"
               />,
               <img
                 alt="cucumber logo"
-                className="program-logo"
+                className="cucumber-logo"
                 src="cucumber-logo.png"
               />,
             ],
@@ -785,7 +785,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "ember logo",
-                "className": "program-logo",
+                "className": "ember-logo",
                 "src": "ember-logo.svg",
               },
               "ref": null,
@@ -798,7 +798,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "vue logo",
-                "className": "program-logo",
+                "className": "vue-logo",
                 "src": "vue-logo.svg",
               },
               "ref": null,
@@ -811,7 +811,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "angular logo",
-                "className": "program-logo",
+                "className": "angular-logo",
                 "src": "angular-logo.svg",
               },
               "ref": null,
@@ -824,7 +824,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "cucumber logo",
-                "className": "program-logo",
+                "className": "cucumber-logo",
                 "src": "cucumber-logo.png",
               },
               "ref": null,
@@ -856,22 +856,22 @@ ShallowWrapper {
             </h1>
             <img
               alt="react logo"
-              className="program-logo"
+              className="react-logo"
               src="react-logo.png"
             />
             <img
               alt="redux logo"
-              className="program-logo"
+              className="redux-logo"
               src="redux-logo.png"
             />
             <img
               alt="javscript html and css logo"
-              className="program-logo"
+              className="htmlcssjs-logos"
               src="javascript-html-css-logos.png"
             />
             <img
               alt="j query logo"
-              className="program-logo"
+              className="jquery-logo"
               src="jquery-logo.png"
             />
           </div>
@@ -883,27 +883,27 @@ ShallowWrapper {
             </h1>
             <img
               alt="node logo"
-              className="program-logo"
+              className="node-logo"
               src="node-logo.png"
             />
             <img
               alt="express logo"
-              className="program-logo"
+              className="express-logo"
               src="expressjs-logo.png"
             />
             <img
               alt="knex logo"
-              className="program-logo"
+              className="knex-logo"
               src="knex-logo.png"
             />
             <img
               alt="postgres logo"
-              className="program-logo"
+              className="postgresql-logo"
               src="postgresql-logo.png"
             />
             <img
               alt="microsoft sql server logo"
-              className="program-logo"
+              className="mssql-logo"
               src="microsoft-sql-server-logo.png"
             />
           </div>
@@ -915,17 +915,17 @@ ShallowWrapper {
             </h1>
             <img
               alt="chai and mocha logos"
-              className="program-logo"
+              className="chaimocha-logos"
               src="chai-mocha.png"
             />
             <img
               alt="enzyme and jest logos"
-              className="program-logo"
+              className="enzymejest-logos"
               src="enzyme-jest.png"
             />
             <img
               alt="Travis CI logo"
-              className="program-logo"
+              className="travisci-logo"
               src="travisCI-logo.png"
             />
           </div>
@@ -937,27 +937,27 @@ ShallowWrapper {
             </h1>
             <img
               alt="git logo"
-              className="program-logo"
+              className="git-logo"
               src="git-logo.png"
             />
             <img
               alt="github logo"
-              className="program-logo"
+              className="github-logo"
               src="github-logo.png"
             />
             <img
               alt="heroku logo"
-              className="program-logo"
+              className="heroku-logo"
               src="heroku-logo.png"
             />
             <img
               alt="waffle IO logo"
-              className="program-logo"
+              className="waffleio-logo"
               src="waffleio.png"
             />
             <img
               alt="jira logo"
-              className="program-logo"
+              className="jira-logo"
               src="jira-logo.png"
             />
           </div>
@@ -969,22 +969,22 @@ ShallowWrapper {
             </h1>
             <img
               alt="ember logo"
-              className="program-logo"
+              className="ember-logo"
               src="ember-logo.svg"
             />
             <img
               alt="vue logo"
-              className="program-logo"
+              className="vue-logo"
               src="vue-logo.svg"
             />
             <img
               alt="angular logo"
-              className="program-logo"
+              className="angular-logo"
               src="angular-logo.svg"
             />
             <img
               alt="cucumber logo"
-              className="program-logo"
+              className="cucumber-logo"
               src="cucumber-logo.png"
             />
           </div>
@@ -1006,22 +1006,22 @@ ShallowWrapper {
               </h1>
               <img
                 alt="react logo"
-                className="program-logo"
+                className="react-logo"
                 src="react-logo.png"
               />
               <img
                 alt="redux logo"
-                className="program-logo"
+                className="redux-logo"
                 src="redux-logo.png"
               />
               <img
                 alt="javscript html and css logo"
-                className="program-logo"
+                className="htmlcssjs-logos"
                 src="javascript-html-css-logos.png"
               />
               <img
                 alt="j query logo"
-                className="program-logo"
+                className="jquery-logo"
                 src="jquery-logo.png"
               />
             </div>,
@@ -1033,27 +1033,27 @@ ShallowWrapper {
               </h1>
               <img
                 alt="node logo"
-                className="program-logo"
+                className="node-logo"
                 src="node-logo.png"
               />
               <img
                 alt="express logo"
-                className="program-logo"
+                className="express-logo"
                 src="expressjs-logo.png"
               />
               <img
                 alt="knex logo"
-                className="program-logo"
+                className="knex-logo"
                 src="knex-logo.png"
               />
               <img
                 alt="postgres logo"
-                className="program-logo"
+                className="postgresql-logo"
                 src="postgresql-logo.png"
               />
               <img
                 alt="microsoft sql server logo"
-                className="program-logo"
+                className="mssql-logo"
                 src="microsoft-sql-server-logo.png"
               />
             </div>,
@@ -1065,17 +1065,17 @@ ShallowWrapper {
               </h1>
               <img
                 alt="chai and mocha logos"
-                className="program-logo"
+                className="chaimocha-logos"
                 src="chai-mocha.png"
               />
               <img
                 alt="enzyme and jest logos"
-                className="program-logo"
+                className="enzymejest-logos"
                 src="enzyme-jest.png"
               />
               <img
                 alt="Travis CI logo"
-                className="program-logo"
+                className="travisci-logo"
                 src="travisCI-logo.png"
               />
             </div>,
@@ -1087,27 +1087,27 @@ ShallowWrapper {
               </h1>
               <img
                 alt="git logo"
-                className="program-logo"
+                className="git-logo"
                 src="git-logo.png"
               />
               <img
                 alt="github logo"
-                className="program-logo"
+                className="github-logo"
                 src="github-logo.png"
               />
               <img
                 alt="heroku logo"
-                className="program-logo"
+                className="heroku-logo"
                 src="heroku-logo.png"
               />
               <img
                 alt="waffle IO logo"
-                className="program-logo"
+                className="waffleio-logo"
                 src="waffleio.png"
               />
               <img
                 alt="jira logo"
-                className="program-logo"
+                className="jira-logo"
                 src="jira-logo.png"
               />
             </div>,
@@ -1119,22 +1119,22 @@ ShallowWrapper {
               </h1>
               <img
                 alt="ember logo"
-                className="program-logo"
+                className="ember-logo"
                 src="ember-logo.svg"
               />
               <img
                 alt="vue logo"
-                className="program-logo"
+                className="vue-logo"
                 src="vue-logo.svg"
               />
               <img
                 alt="angular logo"
-                className="program-logo"
+                className="angular-logo"
                 src="angular-logo.svg"
               />
               <img
                 alt="cucumber logo"
-                className="program-logo"
+                className="cucumber-logo"
                 src="cucumber-logo.png"
               />
             </div>,
@@ -1154,22 +1154,22 @@ ShallowWrapper {
                 </h1>,
                 <img
                   alt="react logo"
-                  className="program-logo"
+                  className="react-logo"
                   src="react-logo.png"
                 />,
                 <img
                   alt="redux logo"
-                  className="program-logo"
+                  className="redux-logo"
                   src="redux-logo.png"
                 />,
                 <img
                   alt="javscript html and css logo"
-                  className="program-logo"
+                  className="htmlcssjs-logos"
                   src="javascript-html-css-logos.png"
                 />,
                 <img
                   alt="j query logo"
-                  className="program-logo"
+                  className="jquery-logo"
                   src="jquery-logo.png"
                 />,
               ],
@@ -1194,7 +1194,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "react logo",
-                  "className": "program-logo",
+                  "className": "react-logo",
                   "src": "react-logo.png",
                 },
                 "ref": null,
@@ -1207,7 +1207,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "redux logo",
-                  "className": "program-logo",
+                  "className": "redux-logo",
                   "src": "redux-logo.png",
                 },
                 "ref": null,
@@ -1220,7 +1220,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "javscript html and css logo",
-                  "className": "program-logo",
+                  "className": "htmlcssjs-logos",
                   "src": "javascript-html-css-logos.png",
                 },
                 "ref": null,
@@ -1233,7 +1233,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "j query logo",
-                  "className": "program-logo",
+                  "className": "jquery-logo",
                   "src": "jquery-logo.png",
                 },
                 "ref": null,
@@ -1254,27 +1254,27 @@ ShallowWrapper {
                 </h1>,
                 <img
                   alt="node logo"
-                  className="program-logo"
+                  className="node-logo"
                   src="node-logo.png"
                 />,
                 <img
                   alt="express logo"
-                  className="program-logo"
+                  className="express-logo"
                   src="expressjs-logo.png"
                 />,
                 <img
                   alt="knex logo"
-                  className="program-logo"
+                  className="knex-logo"
                   src="knex-logo.png"
                 />,
                 <img
                   alt="postgres logo"
-                  className="program-logo"
+                  className="postgresql-logo"
                   src="postgresql-logo.png"
                 />,
                 <img
                   alt="microsoft sql server logo"
-                  className="program-logo"
+                  className="mssql-logo"
                   src="microsoft-sql-server-logo.png"
                 />,
               ],
@@ -1299,7 +1299,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "node logo",
-                  "className": "program-logo",
+                  "className": "node-logo",
                   "src": "node-logo.png",
                 },
                 "ref": null,
@@ -1312,7 +1312,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "express logo",
-                  "className": "program-logo",
+                  "className": "express-logo",
                   "src": "expressjs-logo.png",
                 },
                 "ref": null,
@@ -1325,7 +1325,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "knex logo",
-                  "className": "program-logo",
+                  "className": "knex-logo",
                   "src": "knex-logo.png",
                 },
                 "ref": null,
@@ -1338,7 +1338,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "postgres logo",
-                  "className": "program-logo",
+                  "className": "postgresql-logo",
                   "src": "postgresql-logo.png",
                 },
                 "ref": null,
@@ -1351,7 +1351,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "microsoft sql server logo",
-                  "className": "program-logo",
+                  "className": "mssql-logo",
                   "src": "microsoft-sql-server-logo.png",
                 },
                 "ref": null,
@@ -1372,17 +1372,17 @@ ShallowWrapper {
                 </h1>,
                 <img
                   alt="chai and mocha logos"
-                  className="program-logo"
+                  className="chaimocha-logos"
                   src="chai-mocha.png"
                 />,
                 <img
                   alt="enzyme and jest logos"
-                  className="program-logo"
+                  className="enzymejest-logos"
                   src="enzyme-jest.png"
                 />,
                 <img
                   alt="Travis CI logo"
-                  className="program-logo"
+                  className="travisci-logo"
                   src="travisCI-logo.png"
                 />,
               ],
@@ -1407,7 +1407,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "chai and mocha logos",
-                  "className": "program-logo",
+                  "className": "chaimocha-logos",
                   "src": "chai-mocha.png",
                 },
                 "ref": null,
@@ -1420,7 +1420,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "enzyme and jest logos",
-                  "className": "program-logo",
+                  "className": "enzymejest-logos",
                   "src": "enzyme-jest.png",
                 },
                 "ref": null,
@@ -1433,7 +1433,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "Travis CI logo",
-                  "className": "program-logo",
+                  "className": "travisci-logo",
                   "src": "travisCI-logo.png",
                 },
                 "ref": null,
@@ -1454,27 +1454,27 @@ ShallowWrapper {
                 </h1>,
                 <img
                   alt="git logo"
-                  className="program-logo"
+                  className="git-logo"
                   src="git-logo.png"
                 />,
                 <img
                   alt="github logo"
-                  className="program-logo"
+                  className="github-logo"
                   src="github-logo.png"
                 />,
                 <img
                   alt="heroku logo"
-                  className="program-logo"
+                  className="heroku-logo"
                   src="heroku-logo.png"
                 />,
                 <img
                   alt="waffle IO logo"
-                  className="program-logo"
+                  className="waffleio-logo"
                   src="waffleio.png"
                 />,
                 <img
                   alt="jira logo"
-                  className="program-logo"
+                  className="jira-logo"
                   src="jira-logo.png"
                 />,
               ],
@@ -1499,7 +1499,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "git logo",
-                  "className": "program-logo",
+                  "className": "git-logo",
                   "src": "git-logo.png",
                 },
                 "ref": null,
@@ -1512,7 +1512,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "github logo",
-                  "className": "program-logo",
+                  "className": "github-logo",
                   "src": "github-logo.png",
                 },
                 "ref": null,
@@ -1525,7 +1525,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "heroku logo",
-                  "className": "program-logo",
+                  "className": "heroku-logo",
                   "src": "heroku-logo.png",
                 },
                 "ref": null,
@@ -1538,7 +1538,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "waffle IO logo",
-                  "className": "program-logo",
+                  "className": "waffleio-logo",
                   "src": "waffleio.png",
                 },
                 "ref": null,
@@ -1551,7 +1551,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "jira logo",
-                  "className": "program-logo",
+                  "className": "jira-logo",
                   "src": "jira-logo.png",
                 },
                 "ref": null,
@@ -1572,22 +1572,22 @@ ShallowWrapper {
                 </h1>,
                 <img
                   alt="ember logo"
-                  className="program-logo"
+                  className="ember-logo"
                   src="ember-logo.svg"
                 />,
                 <img
                   alt="vue logo"
-                  className="program-logo"
+                  className="vue-logo"
                   src="vue-logo.svg"
                 />,
                 <img
                   alt="angular logo"
-                  className="program-logo"
+                  className="angular-logo"
                   src="angular-logo.svg"
                 />,
                 <img
                   alt="cucumber logo"
-                  className="program-logo"
+                  className="cucumber-logo"
                   src="cucumber-logo.png"
                 />,
               ],
@@ -1612,7 +1612,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "ember logo",
-                  "className": "program-logo",
+                  "className": "ember-logo",
                   "src": "ember-logo.svg",
                 },
                 "ref": null,
@@ -1625,7 +1625,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "vue logo",
-                  "className": "program-logo",
+                  "className": "vue-logo",
                   "src": "vue-logo.svg",
                 },
                 "ref": null,
@@ -1638,7 +1638,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "angular logo",
-                  "className": "program-logo",
+                  "className": "angular-logo",
                   "src": "angular-logo.svg",
                 },
                 "ref": null,
@@ -1651,7 +1651,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "cucumber logo",
-                  "className": "program-logo",
+                  "className": "cucumber-logo",
                   "src": "cucumber-logo.png",
                 },
                 "ref": null,
