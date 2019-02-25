@@ -25,34 +25,74 @@ ShallowWrapper {
         <div
           className="contact-links"
         >
-          <a
-            href="Alexander-Rau-Resume.pdf"
-            rel="noopener noreferrer"
-            target="_blank"
+          <div
+            className="link-container"
           >
-            Resume
-          </a>
-          <a
-            href="https://github.com/raualex"
-            rel="noopener noreferrer"
-            target="_blank"
+            <a
+              className="resume-link"
+              href="Alexander-Rau-Resume.pdf"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Resume
+            </a>
+            <img
+              alt="resume icon"
+              className="contact-icon"
+              src="004-resume.svg"
+            />
+          </div>
+          <div
+            className="link-container"
           >
-            GitHub
-          </a>
-          <a
-            href="https://www.linkedin.com/in/alexander-rau/"
-            rel="noopener noreferrer"
-            target="_blank"
+            <a
+              className="github-link"
+              href="https://github.com/raualex"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <img
+              alt="github icon"
+              className="contact-icon"
+              src="002-github.svg"
+            />
+          </div>
+          <div
+            className="link-container"
           >
-            LinkedIn
-          </a>
-          <a
-            href="mailto:raualexander86@gmail.com"
-            rel="noopener noreferrer"
-            target="_blank"
+            <a
+              className="linkedin-link"
+              href="https://www.linkedin.com/in/alexander-rau/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+            <img
+              alt="linked in icon"
+              className="contact-icon"
+              src="linkedin-sign.svg"
+            />
+          </div>
+          <div
+            className="link-container"
           >
-            Email
-          </a>
+            <a
+              className="email-link"
+              href="mailto:raualexander86@gmail.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Email
+            </a>
+            <img
+              alt="email icon"
+              className="contact-icon"
+              src="003-close-envelope.svg"
+            />
+          </div>
         </div>,
       ],
       "className": "contact-container",
@@ -76,34 +116,74 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <a
-              href="Alexander-Rau-Resume.pdf"
-              rel="noopener noreferrer"
-              target="_blank"
+            <div
+              className="link-container"
             >
-              Resume
-            </a>,
-            <a
-              href="https://github.com/raualex"
-              rel="noopener noreferrer"
-              target="_blank"
+              <a
+                className="resume-link"
+                href="Alexander-Rau-Resume.pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Resume
+              </a>
+              <img
+                alt="resume icon"
+                className="contact-icon"
+                src="004-resume.svg"
+              />
+            </div>,
+            <div
+              className="link-container"
             >
-              GitHub
-            </a>,
-            <a
-              href="https://www.linkedin.com/in/alexander-rau/"
-              rel="noopener noreferrer"
-              target="_blank"
+              <a
+                className="github-link"
+                href="https://github.com/raualex"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <img
+                alt="github icon"
+                className="contact-icon"
+                src="002-github.svg"
+              />
+            </div>,
+            <div
+              className="link-container"
             >
-              LinkedIn
-            </a>,
-            <a
-              href="mailto:raualexander86@gmail.com"
-              rel="noopener noreferrer"
-              target="_blank"
+              <a
+                className="linkedin-link"
+                href="https://www.linkedin.com/in/alexander-rau/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+              <img
+                alt="linked in icon"
+                className="contact-icon"
+                src="linkedin-sign.svg"
+              />
+            </div>,
+            <div
+              className="link-container"
             >
-              Email
-            </a>,
+              <a
+                className="email-link"
+                href="mailto:raualexander86@gmail.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Email
+              </a>
+              <img
+                alt="email icon"
+                className="contact-icon"
+                src="003-close-envelope.svg"
+              />
+            </div>,
           ],
           "className": "contact-links",
         },
@@ -114,56 +194,220 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Resume",
-              "href": "Alexander-Rau-Resume.pdf",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
+              "children": Array [
+                <a
+                  className="resume-link"
+                  href="Alexander-Rau-Resume.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Resume
+                </a>,
+                <img
+                  alt="resume icon"
+                  className="contact-icon"
+                  src="004-resume.svg"
+                />,
+              ],
+              "className": "link-container",
             },
             "ref": null,
-            "rendered": "Resume",
-            "type": "a",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Resume",
+                  "className": "resume-link",
+                  "href": "Alexander-Rau-Resume.pdf",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": "Resume",
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "resume icon",
+                  "className": "contact-icon",
+                  "src": "004-resume.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
           },
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "GitHub",
-              "href": "https://github.com/raualex",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
+              "children": Array [
+                <a
+                  className="github-link"
+                  href="https://github.com/raualex"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>,
+                <img
+                  alt="github icon"
+                  className="contact-icon"
+                  src="002-github.svg"
+                />,
+              ],
+              "className": "link-container",
             },
             "ref": null,
-            "rendered": "GitHub",
-            "type": "a",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "GitHub",
+                  "className": "github-link",
+                  "href": "https://github.com/raualex",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": "GitHub",
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "github icon",
+                  "className": "contact-icon",
+                  "src": "002-github.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
           },
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "LinkedIn",
-              "href": "https://www.linkedin.com/in/alexander-rau/",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
+              "children": Array [
+                <a
+                  className="linkedin-link"
+                  href="https://www.linkedin.com/in/alexander-rau/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>,
+                <img
+                  alt="linked in icon"
+                  className="contact-icon"
+                  src="linkedin-sign.svg"
+                />,
+              ],
+              "className": "link-container",
             },
             "ref": null,
-            "rendered": "LinkedIn",
-            "type": "a",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "LinkedIn",
+                  "className": "linkedin-link",
+                  "href": "https://www.linkedin.com/in/alexander-rau/",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": "LinkedIn",
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "linked in icon",
+                  "className": "contact-icon",
+                  "src": "linkedin-sign.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
           },
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Email",
-              "href": "mailto:raualexander86@gmail.com",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
+              "children": Array [
+                <a
+                  className="email-link"
+                  href="mailto:raualexander86@gmail.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Email
+                </a>,
+                <img
+                  alt="email icon"
+                  className="contact-icon"
+                  src="003-close-envelope.svg"
+                />,
+              ],
+              "className": "link-container",
             },
             "ref": null,
-            "rendered": "Email",
-            "type": "a",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Email",
+                  "className": "email-link",
+                  "href": "mailto:raualexander86@gmail.com",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": "Email",
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "email icon",
+                  "className": "contact-icon",
+                  "src": "003-close-envelope.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
           },
         ],
         "type": "div",
@@ -184,34 +428,74 @@ ShallowWrapper {
           <div
             className="contact-links"
           >
-            <a
-              href="Alexander-Rau-Resume.pdf"
-              rel="noopener noreferrer"
-              target="_blank"
+            <div
+              className="link-container"
             >
-              Resume
-            </a>
-            <a
-              href="https://github.com/raualex"
-              rel="noopener noreferrer"
-              target="_blank"
+              <a
+                className="resume-link"
+                href="Alexander-Rau-Resume.pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Resume
+              </a>
+              <img
+                alt="resume icon"
+                className="contact-icon"
+                src="004-resume.svg"
+              />
+            </div>
+            <div
+              className="link-container"
             >
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/alexander-rau/"
-              rel="noopener noreferrer"
-              target="_blank"
+              <a
+                className="github-link"
+                href="https://github.com/raualex"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <img
+                alt="github icon"
+                className="contact-icon"
+                src="002-github.svg"
+              />
+            </div>
+            <div
+              className="link-container"
             >
-              LinkedIn
-            </a>
-            <a
-              href="mailto:raualexander86@gmail.com"
-              rel="noopener noreferrer"
-              target="_blank"
+              <a
+                className="linkedin-link"
+                href="https://www.linkedin.com/in/alexander-rau/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+              <img
+                alt="linked in icon"
+                className="contact-icon"
+                src="linkedin-sign.svg"
+              />
+            </div>
+            <div
+              className="link-container"
             >
-              Email
-            </a>
+              <a
+                className="email-link"
+                href="mailto:raualexander86@gmail.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Email
+              </a>
+              <img
+                alt="email icon"
+                className="contact-icon"
+                src="003-close-envelope.svg"
+              />
+            </div>
           </div>,
         ],
         "className": "contact-container",
@@ -235,34 +519,74 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <a
-                href="Alexander-Rau-Resume.pdf"
-                rel="noopener noreferrer"
-                target="_blank"
+              <div
+                className="link-container"
               >
-                Resume
-              </a>,
-              <a
-                href="https://github.com/raualex"
-                rel="noopener noreferrer"
-                target="_blank"
+                <a
+                  className="resume-link"
+                  href="Alexander-Rau-Resume.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Resume
+                </a>
+                <img
+                  alt="resume icon"
+                  className="contact-icon"
+                  src="004-resume.svg"
+                />
+              </div>,
+              <div
+                className="link-container"
               >
-                GitHub
-              </a>,
-              <a
-                href="https://www.linkedin.com/in/alexander-rau/"
-                rel="noopener noreferrer"
-                target="_blank"
+                <a
+                  className="github-link"
+                  href="https://github.com/raualex"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+                <img
+                  alt="github icon"
+                  className="contact-icon"
+                  src="002-github.svg"
+                />
+              </div>,
+              <div
+                className="link-container"
               >
-                LinkedIn
-              </a>,
-              <a
-                href="mailto:raualexander86@gmail.com"
-                rel="noopener noreferrer"
-                target="_blank"
+                <a
+                  className="linkedin-link"
+                  href="https://www.linkedin.com/in/alexander-rau/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+                <img
+                  alt="linked in icon"
+                  className="contact-icon"
+                  src="linkedin-sign.svg"
+                />
+              </div>,
+              <div
+                className="link-container"
               >
-                Email
-              </a>,
+                <a
+                  className="email-link"
+                  href="mailto:raualexander86@gmail.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Email
+                </a>
+                <img
+                  alt="email icon"
+                  className="contact-icon"
+                  src="003-close-envelope.svg"
+                />
+              </div>,
             ],
             "className": "contact-links",
           },
@@ -273,56 +597,220 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Resume",
-                "href": "Alexander-Rau-Resume.pdf",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
+                "children": Array [
+                  <a
+                    className="resume-link"
+                    href="Alexander-Rau-Resume.pdf"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Resume
+                  </a>,
+                  <img
+                    alt="resume icon"
+                    className="contact-icon"
+                    src="004-resume.svg"
+                  />,
+                ],
+                "className": "link-container",
               },
               "ref": null,
-              "rendered": "Resume",
-              "type": "a",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Resume",
+                    "className": "resume-link",
+                    "href": "Alexander-Rau-Resume.pdf",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": "Resume",
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "resume icon",
+                    "className": "contact-icon",
+                    "src": "004-resume.svg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+              ],
+              "type": "div",
             },
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "GitHub",
-                "href": "https://github.com/raualex",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
+                "children": Array [
+                  <a
+                    className="github-link"
+                    href="https://github.com/raualex"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    GitHub
+                  </a>,
+                  <img
+                    alt="github icon"
+                    className="contact-icon"
+                    src="002-github.svg"
+                  />,
+                ],
+                "className": "link-container",
               },
               "ref": null,
-              "rendered": "GitHub",
-              "type": "a",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "GitHub",
+                    "className": "github-link",
+                    "href": "https://github.com/raualex",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": "GitHub",
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "github icon",
+                    "className": "contact-icon",
+                    "src": "002-github.svg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+              ],
+              "type": "div",
             },
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "LinkedIn",
-                "href": "https://www.linkedin.com/in/alexander-rau/",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
+                "children": Array [
+                  <a
+                    className="linkedin-link"
+                    href="https://www.linkedin.com/in/alexander-rau/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    LinkedIn
+                  </a>,
+                  <img
+                    alt="linked in icon"
+                    className="contact-icon"
+                    src="linkedin-sign.svg"
+                  />,
+                ],
+                "className": "link-container",
               },
               "ref": null,
-              "rendered": "LinkedIn",
-              "type": "a",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "LinkedIn",
+                    "className": "linkedin-link",
+                    "href": "https://www.linkedin.com/in/alexander-rau/",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": "LinkedIn",
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "linked in icon",
+                    "className": "contact-icon",
+                    "src": "linkedin-sign.svg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+              ],
+              "type": "div",
             },
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Email",
-                "href": "mailto:raualexander86@gmail.com",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
+                "children": Array [
+                  <a
+                    className="email-link"
+                    href="mailto:raualexander86@gmail.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Email
+                  </a>,
+                  <img
+                    alt="email icon"
+                    className="contact-icon"
+                    src="003-close-envelope.svg"
+                  />,
+                ],
+                "className": "link-container",
               },
               "ref": null,
-              "rendered": "Email",
-              "type": "a",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Email",
+                    "className": "email-link",
+                    "href": "mailto:raualexander86@gmail.com",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": "Email",
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "email icon",
+                    "className": "contact-icon",
+                    "src": "003-close-envelope.svg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+              ],
+              "type": "div",
             },
           ],
           "type": "div",
@@ -352,6 +840,5 @@ ShallowWrapper {
       },
     },
   },
-  Symbol(enzyme.__childContext__): null,
 }
 `;

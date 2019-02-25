@@ -22,7 +22,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <img
-          alt="Profile Picture"
+          alt="Profile"
           className="profile-pic"
           src="profile.jpg"
         />,
@@ -76,7 +76,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "alt": "Profile Picture",
+          "alt": "Profile",
           "className": "profile-pic",
           "src": "profile.jpg",
         },
@@ -209,7 +209,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <img
-            alt="Profile Picture"
+            alt="Profile"
             className="profile-pic"
             src="profile.jpg"
           />,
@@ -263,7 +263,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "alt": "Profile Picture",
+            "alt": "Profile",
             "className": "profile-pic",
             "src": "profile.jpg",
           },
