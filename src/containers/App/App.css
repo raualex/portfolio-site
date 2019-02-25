@@ -2,6 +2,6 @@
   display: grid;
   font-family: 'Lato', sans-serif;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 240px 1fr;
+  grid-template-rows: 220px 1fr;
   text-align: center;
 }
