@@ -15,7 +15,10 @@ export class Projects extends Component {
   return(
     <div className='projects-container'>
       <div className='project-links-box'>
-        <h1 className='projects-title'>Recent and On-going Projects</h1>
+        <div className='projects-titles-container'>
+          <h1 className='projects-title'>Recent and On-going Projects</h1>
+          <h4>(Click the screenshot to see more info)</h4>
+        </div>
         <div className='mentormatch-container'>
           <h2>Mentor Match</h2>
           <img 

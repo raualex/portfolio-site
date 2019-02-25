@@ -5,10 +5,6 @@
   grid-row-end: 3;
 }
 
-.projects-title {
-  margin-top: 0;
-}
-
 .project-links-box {
   align-items: flex-start;
   display: flex;
@@ -16,6 +12,15 @@
   height: 460px;
   justify-content: center;
   overflow: auto;
+}
+
+.projects-titles-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-title {
+  margin: 0;
 }
 
 .mentormatch-container,
