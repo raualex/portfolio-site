@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './ProjectModal.css';
 import { connect } from 'react-redux';
 import { selectProject } from '../../actions/selection-actions';
+import projectPics from '../../utils/assets/data/ModalPics.js';
 
 export class ProjectModal extends Component {
   // constructor() {
@@ -18,8 +19,18 @@ export class ProjectModal extends Component {
 
     return (
       <div className='project-modal-container'>
-        <h1>{selectedProj}</h1>
-        <button onClick={this.resetProject}>X</button>
+        <div className='modal-heading'>
+          <h1 className='modal-project-title'>{selectedProj}</h1>
+          <button 
+            className='exit-btn'
+            onClick={this.resetProject}
+          >X</button>
+        </div>
+        <img 
+          src={`${projectPics[selectedProj]}`} 
+          alt='screenshot of project'
+          className='modal-screenshot' 
+        />
       </div>
     )
   }

@@ -2,8 +2,50 @@
   background-color: #fff;
   border: solid 2px #000;
   position: fixed;
-  left: 10%;
-  right: 10%;
+  left: 25%;
+  right: 30%;
   top: 10%;
   bottom: 10%;
+  width: 800px;
+}
+
+.modal-heading {
+  align-items: center;
+  display: flex;
+  justify-content: center
+}
+
+.modal-project-title {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.exit-btn {
+  background-color: rgb(255, 0, 0);
+  border: solid 2px #000;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  height: 50px;
+  padding: 2px;
+  text-align: center;
+  width: 50px;
+}
+
+.exit-btn:hover {
+  cursor: pointer;
+}
+
+.exit-btn:active {
+  background-color: #fff;
+  color: rgb(255, 0, 0);
+}
+
+.exit-btn:focus {
+  outline: none;
+}
+
+.modal-screenshot {
+  height: 300px;
+  width: 550px;
 }
