@@ -24,7 +24,7 @@ export class Sidebar extends Component {
       <div className='nav-bar-container'>
         <img 
           src={profile} 
-          alt='Profile Picture'
+          alt='Profile'
           className='profile-pic' 
         />
         <div className='nav-links'>
