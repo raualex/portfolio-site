@@ -1,0 +1,1692 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Skills />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="skills-box"
+      >
+        <div
+          className="front-end-skills"
+        >
+          <h1>
+            Front-End
+          </h1>
+          <img
+            alt="react logo"
+            className="react-logo"
+            src="react-logo.png"
+          />
+          <img
+            alt="redux logo"
+            className="redux-logo"
+            src="redux-logo.png"
+          />
+          <img
+            alt="javscript html and css logo"
+            className="htmlcssjs-logos"
+            src="javascript-html-css-logos.png"
+          />
+          <img
+            alt="j query logo"
+            className="jquery-logo"
+            src="jquery-logo.png"
+          />
+        </div>
+        <div
+          className="back-end-skills"
+        >
+          <h1>
+            Back-End
+          </h1>
+          <img
+            alt="node logo"
+            className="node-logo"
+            src="node-logo.png"
+          />
+          <img
+            alt="express logo"
+            className="express-logo"
+            src="expressjs-logo.png"
+          />
+          <img
+            alt="knex logo"
+            className="knex-logo"
+            src="knex-logo.png"
+          />
+          <img
+            alt="postgres logo"
+            className="postgresql-logo"
+            src="postgresql-logo.png"
+          />
+          <img
+            alt="microsoft sql server logo"
+            className="mssql-logo"
+            src="microsoft-sql-server-logo.png"
+          />
+        </div>
+        <div
+          className="testing-skills"
+        >
+          <h1>
+            Testing
+          </h1>
+          <img
+            alt="chai and mocha logos"
+            className="chaimocha-logos"
+            src="chai-mocha.png"
+          />
+          <img
+            alt="enzyme and jest logos"
+            className="enzymejest-logos"
+            src="enzyme-jest.png"
+          />
+          <img
+            alt="Travis CI logo"
+            className="travisci-logo"
+            src="travisCI-logo.png"
+          />
+        </div>
+        <div
+          className="workflow-skills"
+        >
+          <h1>
+            Workflow/Tools
+          </h1>
+          <img
+            alt="git logo"
+            className="git-logo"
+            src="git-logo.png"
+          />
+          <img
+            alt="github logo"
+            className="github-logo"
+            src="github-logo.png"
+          />
+          <img
+            alt="heroku logo"
+            className="heroku-logo"
+            src="heroku-logo.png"
+          />
+          <img
+            alt="waffle IO logo"
+            className="waffleio-logo"
+            src="waffleio.png"
+          />
+          <img
+            alt="jira logo"
+            className="jira-logo"
+            src="jira-logo.png"
+          />
+        </div>
+        <div
+          className="currently-learning-skills"
+        >
+          <h1>
+            Currently Learning
+          </h1>
+          <img
+            alt="ember logo"
+            className="ember-logo"
+            src="ember-logo.svg"
+          />
+          <img
+            alt="vue logo"
+            className="vue-logo"
+            src="vue-logo.svg"
+          />
+          <img
+            alt="angular logo"
+            className="angular-logo"
+            src="angular-logo.svg"
+          />
+          <img
+            alt="cucumber logo"
+            className="cucumber-logo"
+            src="cucumber-logo.png"
+          />
+        </div>
+      </div>,
+      "className": "skills-container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="front-end-skills"
+          >
+            <h1>
+              Front-End
+            </h1>
+            <img
+              alt="react logo"
+              className="react-logo"
+              src="react-logo.png"
+            />
+            <img
+              alt="redux logo"
+              className="redux-logo"
+              src="redux-logo.png"
+            />
+            <img
+              alt="javscript html and css logo"
+              className="htmlcssjs-logos"
+              src="javascript-html-css-logos.png"
+            />
+            <img
+              alt="j query logo"
+              className="jquery-logo"
+              src="jquery-logo.png"
+            />
+          </div>,
+          <div
+            className="back-end-skills"
+          >
+            <h1>
+              Back-End
+            </h1>
+            <img
+              alt="node logo"
+              className="node-logo"
+              src="node-logo.png"
+            />
+            <img
+              alt="express logo"
+              className="express-logo"
+              src="expressjs-logo.png"
+            />
+            <img
+              alt="knex logo"
+              className="knex-logo"
+              src="knex-logo.png"
+            />
+            <img
+              alt="postgres logo"
+              className="postgresql-logo"
+              src="postgresql-logo.png"
+            />
+            <img
+              alt="microsoft sql server logo"
+              className="mssql-logo"
+              src="microsoft-sql-server-logo.png"
+            />
+          </div>,
+          <div
+            className="testing-skills"
+          >
+            <h1>
+              Testing
+            </h1>
+            <img
+              alt="chai and mocha logos"
+              className="chaimocha-logos"
+              src="chai-mocha.png"
+            />
+            <img
+              alt="enzyme and jest logos"
+              className="enzymejest-logos"
+              src="enzyme-jest.png"
+            />
+            <img
+              alt="Travis CI logo"
+              className="travisci-logo"
+              src="travisCI-logo.png"
+            />
+          </div>,
+          <div
+            className="workflow-skills"
+          >
+            <h1>
+              Workflow/Tools
+            </h1>
+            <img
+              alt="git logo"
+              className="git-logo"
+              src="git-logo.png"
+            />
+            <img
+              alt="github logo"
+              className="github-logo"
+              src="github-logo.png"
+            />
+            <img
+              alt="heroku logo"
+              className="heroku-logo"
+              src="heroku-logo.png"
+            />
+            <img
+              alt="waffle IO logo"
+              className="waffleio-logo"
+              src="waffleio.png"
+            />
+            <img
+              alt="jira logo"
+              className="jira-logo"
+              src="jira-logo.png"
+            />
+          </div>,
+          <div
+            className="currently-learning-skills"
+          >
+            <h1>
+              Currently Learning
+            </h1>
+            <img
+              alt="ember logo"
+              className="ember-logo"
+              src="ember-logo.svg"
+            />
+            <img
+              alt="vue logo"
+              className="vue-logo"
+              src="vue-logo.svg"
+            />
+            <img
+              alt="angular logo"
+              className="angular-logo"
+              src="angular-logo.svg"
+            />
+            <img
+              alt="cucumber logo"
+              className="cucumber-logo"
+              src="cucumber-logo.png"
+            />
+          </div>,
+        ],
+        "className": "skills-box",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Front-End
+              </h1>,
+              <img
+                alt="react logo"
+                className="react-logo"
+                src="react-logo.png"
+              />,
+              <img
+                alt="redux logo"
+                className="redux-logo"
+                src="redux-logo.png"
+              />,
+              <img
+                alt="javscript html and css logo"
+                className="htmlcssjs-logos"
+                src="javascript-html-css-logos.png"
+              />,
+              <img
+                alt="j query logo"
+                className="jquery-logo"
+                src="jquery-logo.png"
+              />,
+            ],
+            "className": "front-end-skills",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Front-End",
+              },
+              "ref": null,
+              "rendered": "Front-End",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "react logo",
+                "className": "react-logo",
+                "src": "react-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "redux logo",
+                "className": "redux-logo",
+                "src": "redux-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "javscript html and css logo",
+                "className": "htmlcssjs-logos",
+                "src": "javascript-html-css-logos.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "j query logo",
+                "className": "jquery-logo",
+                "src": "jquery-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Back-End
+              </h1>,
+              <img
+                alt="node logo"
+                className="node-logo"
+                src="node-logo.png"
+              />,
+              <img
+                alt="express logo"
+                className="express-logo"
+                src="expressjs-logo.png"
+              />,
+              <img
+                alt="knex logo"
+                className="knex-logo"
+                src="knex-logo.png"
+              />,
+              <img
+                alt="postgres logo"
+                className="postgresql-logo"
+                src="postgresql-logo.png"
+              />,
+              <img
+                alt="microsoft sql server logo"
+                className="mssql-logo"
+                src="microsoft-sql-server-logo.png"
+              />,
+            ],
+            "className": "back-end-skills",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Back-End",
+              },
+              "ref": null,
+              "rendered": "Back-End",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "node logo",
+                "className": "node-logo",
+                "src": "node-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "express logo",
+                "className": "express-logo",
+                "src": "expressjs-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "knex logo",
+                "className": "knex-logo",
+                "src": "knex-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "postgres logo",
+                "className": "postgresql-logo",
+                "src": "postgresql-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "microsoft sql server logo",
+                "className": "mssql-logo",
+                "src": "microsoft-sql-server-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Testing
+              </h1>,
+              <img
+                alt="chai and mocha logos"
+                className="chaimocha-logos"
+                src="chai-mocha.png"
+              />,
+              <img
+                alt="enzyme and jest logos"
+                className="enzymejest-logos"
+                src="enzyme-jest.png"
+              />,
+              <img
+                alt="Travis CI logo"
+                className="travisci-logo"
+                src="travisCI-logo.png"
+              />,
+            ],
+            "className": "testing-skills",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Testing",
+              },
+              "ref": null,
+              "rendered": "Testing",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "chai and mocha logos",
+                "className": "chaimocha-logos",
+                "src": "chai-mocha.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "enzyme and jest logos",
+                "className": "enzymejest-logos",
+                "src": "enzyme-jest.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Travis CI logo",
+                "className": "travisci-logo",
+                "src": "travisCI-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Workflow/Tools
+              </h1>,
+              <img
+                alt="git logo"
+                className="git-logo"
+                src="git-logo.png"
+              />,
+              <img
+                alt="github logo"
+                className="github-logo"
+                src="github-logo.png"
+              />,
+              <img
+                alt="heroku logo"
+                className="heroku-logo"
+                src="heroku-logo.png"
+              />,
+              <img
+                alt="waffle IO logo"
+                className="waffleio-logo"
+                src="waffleio.png"
+              />,
+              <img
+                alt="jira logo"
+                className="jira-logo"
+                src="jira-logo.png"
+              />,
+            ],
+            "className": "workflow-skills",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Workflow/Tools",
+              },
+              "ref": null,
+              "rendered": "Workflow/Tools",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "git logo",
+                "className": "git-logo",
+                "src": "git-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "github logo",
+                "className": "github-logo",
+                "src": "github-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "heroku logo",
+                "className": "heroku-logo",
+                "src": "heroku-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "waffle IO logo",
+                "className": "waffleio-logo",
+                "src": "waffleio.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "jira logo",
+                "className": "jira-logo",
+                "src": "jira-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Currently Learning
+              </h1>,
+              <img
+                alt="ember logo"
+                className="ember-logo"
+                src="ember-logo.svg"
+              />,
+              <img
+                alt="vue logo"
+                className="vue-logo"
+                src="vue-logo.svg"
+              />,
+              <img
+                alt="angular logo"
+                className="angular-logo"
+                src="angular-logo.svg"
+              />,
+              <img
+                alt="cucumber logo"
+                className="cucumber-logo"
+                src="cucumber-logo.png"
+              />,
+            ],
+            "className": "currently-learning-skills",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Currently Learning",
+              },
+              "ref": null,
+              "rendered": "Currently Learning",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "ember logo",
+                "className": "ember-logo",
+                "src": "ember-logo.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "vue logo",
+                "className": "vue-logo",
+                "src": "vue-logo.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "angular logo",
+                "className": "angular-logo",
+                "src": "angular-logo.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "cucumber logo",
+                "className": "cucumber-logo",
+                "src": "cucumber-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="skills-box"
+        >
+          <div
+            className="front-end-skills"
+          >
+            <h1>
+              Front-End
+            </h1>
+            <img
+              alt="react logo"
+              className="react-logo"
+              src="react-logo.png"
+            />
+            <img
+              alt="redux logo"
+              className="redux-logo"
+              src="redux-logo.png"
+            />
+            <img
+              alt="javscript html and css logo"
+              className="htmlcssjs-logos"
+              src="javascript-html-css-logos.png"
+            />
+            <img
+              alt="j query logo"
+              className="jquery-logo"
+              src="jquery-logo.png"
+            />
+          </div>
+          <div
+            className="back-end-skills"
+          >
+            <h1>
+              Back-End
+            </h1>
+            <img
+              alt="node logo"
+              className="node-logo"
+              src="node-logo.png"
+            />
+            <img
+              alt="express logo"
+              className="express-logo"
+              src="expressjs-logo.png"
+            />
+            <img
+              alt="knex logo"
+              className="knex-logo"
+              src="knex-logo.png"
+            />
+            <img
+              alt="postgres logo"
+              className="postgresql-logo"
+              src="postgresql-logo.png"
+            />
+            <img
+              alt="microsoft sql server logo"
+              className="mssql-logo"
+              src="microsoft-sql-server-logo.png"
+            />
+          </div>
+          <div
+            className="testing-skills"
+          >
+            <h1>
+              Testing
+            </h1>
+            <img
+              alt="chai and mocha logos"
+              className="chaimocha-logos"
+              src="chai-mocha.png"
+            />
+            <img
+              alt="enzyme and jest logos"
+              className="enzymejest-logos"
+              src="enzyme-jest.png"
+            />
+            <img
+              alt="Travis CI logo"
+              className="travisci-logo"
+              src="travisCI-logo.png"
+            />
+          </div>
+          <div
+            className="workflow-skills"
+          >
+            <h1>
+              Workflow/Tools
+            </h1>
+            <img
+              alt="git logo"
+              className="git-logo"
+              src="git-logo.png"
+            />
+            <img
+              alt="github logo"
+              className="github-logo"
+              src="github-logo.png"
+            />
+            <img
+              alt="heroku logo"
+              className="heroku-logo"
+              src="heroku-logo.png"
+            />
+            <img
+              alt="waffle IO logo"
+              className="waffleio-logo"
+              src="waffleio.png"
+            />
+            <img
+              alt="jira logo"
+              className="jira-logo"
+              src="jira-logo.png"
+            />
+          </div>
+          <div
+            className="currently-learning-skills"
+          >
+            <h1>
+              Currently Learning
+            </h1>
+            <img
+              alt="ember logo"
+              className="ember-logo"
+              src="ember-logo.svg"
+            />
+            <img
+              alt="vue logo"
+              className="vue-logo"
+              src="vue-logo.svg"
+            />
+            <img
+              alt="angular logo"
+              className="angular-logo"
+              src="angular-logo.svg"
+            />
+            <img
+              alt="cucumber logo"
+              className="cucumber-logo"
+              src="cucumber-logo.png"
+            />
+          </div>
+        </div>,
+        "className": "skills-container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="front-end-skills"
+            >
+              <h1>
+                Front-End
+              </h1>
+              <img
+                alt="react logo"
+                className="react-logo"
+                src="react-logo.png"
+              />
+              <img
+                alt="redux logo"
+                className="redux-logo"
+                src="redux-logo.png"
+              />
+              <img
+                alt="javscript html and css logo"
+                className="htmlcssjs-logos"
+                src="javascript-html-css-logos.png"
+              />
+              <img
+                alt="j query logo"
+                className="jquery-logo"
+                src="jquery-logo.png"
+              />
+            </div>,
+            <div
+              className="back-end-skills"
+            >
+              <h1>
+                Back-End
+              </h1>
+              <img
+                alt="node logo"
+                className="node-logo"
+                src="node-logo.png"
+              />
+              <img
+                alt="express logo"
+                className="express-logo"
+                src="expressjs-logo.png"
+              />
+              <img
+                alt="knex logo"
+                className="knex-logo"
+                src="knex-logo.png"
+              />
+              <img
+                alt="postgres logo"
+                className="postgresql-logo"
+                src="postgresql-logo.png"
+              />
+              <img
+                alt="microsoft sql server logo"
+                className="mssql-logo"
+                src="microsoft-sql-server-logo.png"
+              />
+            </div>,
+            <div
+              className="testing-skills"
+            >
+              <h1>
+                Testing
+              </h1>
+              <img
+                alt="chai and mocha logos"
+                className="chaimocha-logos"
+                src="chai-mocha.png"
+              />
+              <img
+                alt="enzyme and jest logos"
+                className="enzymejest-logos"
+                src="enzyme-jest.png"
+              />
+              <img
+                alt="Travis CI logo"
+                className="travisci-logo"
+                src="travisCI-logo.png"
+              />
+            </div>,
+            <div
+              className="workflow-skills"
+            >
+              <h1>
+                Workflow/Tools
+              </h1>
+              <img
+                alt="git logo"
+                className="git-logo"
+                src="git-logo.png"
+              />
+              <img
+                alt="github logo"
+                className="github-logo"
+                src="github-logo.png"
+              />
+              <img
+                alt="heroku logo"
+                className="heroku-logo"
+                src="heroku-logo.png"
+              />
+              <img
+                alt="waffle IO logo"
+                className="waffleio-logo"
+                src="waffleio.png"
+              />
+              <img
+                alt="jira logo"
+                className="jira-logo"
+                src="jira-logo.png"
+              />
+            </div>,
+            <div
+              className="currently-learning-skills"
+            >
+              <h1>
+                Currently Learning
+              </h1>
+              <img
+                alt="ember logo"
+                className="ember-logo"
+                src="ember-logo.svg"
+              />
+              <img
+                alt="vue logo"
+                className="vue-logo"
+                src="vue-logo.svg"
+              />
+              <img
+                alt="angular logo"
+                className="angular-logo"
+                src="angular-logo.svg"
+              />
+              <img
+                alt="cucumber logo"
+                className="cucumber-logo"
+                src="cucumber-logo.png"
+              />
+            </div>,
+          ],
+          "className": "skills-box",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1>
+                  Front-End
+                </h1>,
+                <img
+                  alt="react logo"
+                  className="react-logo"
+                  src="react-logo.png"
+                />,
+                <img
+                  alt="redux logo"
+                  className="redux-logo"
+                  src="redux-logo.png"
+                />,
+                <img
+                  alt="javscript html and css logo"
+                  className="htmlcssjs-logos"
+                  src="javascript-html-css-logos.png"
+                />,
+                <img
+                  alt="j query logo"
+                  className="jquery-logo"
+                  src="jquery-logo.png"
+                />,
+              ],
+              "className": "front-end-skills",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Front-End",
+                },
+                "ref": null,
+                "rendered": "Front-End",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "react logo",
+                  "className": "react-logo",
+                  "src": "react-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "redux logo",
+                  "className": "redux-logo",
+                  "src": "redux-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "javscript html and css logo",
+                  "className": "htmlcssjs-logos",
+                  "src": "javascript-html-css-logos.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "j query logo",
+                  "className": "jquery-logo",
+                  "src": "jquery-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1>
+                  Back-End
+                </h1>,
+                <img
+                  alt="node logo"
+                  className="node-logo"
+                  src="node-logo.png"
+                />,
+                <img
+                  alt="express logo"
+                  className="express-logo"
+                  src="expressjs-logo.png"
+                />,
+                <img
+                  alt="knex logo"
+                  className="knex-logo"
+                  src="knex-logo.png"
+                />,
+                <img
+                  alt="postgres logo"
+                  className="postgresql-logo"
+                  src="postgresql-logo.png"
+                />,
+                <img
+                  alt="microsoft sql server logo"
+                  className="mssql-logo"
+                  src="microsoft-sql-server-logo.png"
+                />,
+              ],
+              "className": "back-end-skills",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Back-End",
+                },
+                "ref": null,
+                "rendered": "Back-End",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "node logo",
+                  "className": "node-logo",
+                  "src": "node-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "express logo",
+                  "className": "express-logo",
+                  "src": "expressjs-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "knex logo",
+                  "className": "knex-logo",
+                  "src": "knex-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "postgres logo",
+                  "className": "postgresql-logo",
+                  "src": "postgresql-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "microsoft sql server logo",
+                  "className": "mssql-logo",
+                  "src": "microsoft-sql-server-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1>
+                  Testing
+                </h1>,
+                <img
+                  alt="chai and mocha logos"
+                  className="chaimocha-logos"
+                  src="chai-mocha.png"
+                />,
+                <img
+                  alt="enzyme and jest logos"
+                  className="enzymejest-logos"
+                  src="enzyme-jest.png"
+                />,
+                <img
+                  alt="Travis CI logo"
+                  className="travisci-logo"
+                  src="travisCI-logo.png"
+                />,
+              ],
+              "className": "testing-skills",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Testing",
+                },
+                "ref": null,
+                "rendered": "Testing",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "chai and mocha logos",
+                  "className": "chaimocha-logos",
+                  "src": "chai-mocha.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "enzyme and jest logos",
+                  "className": "enzymejest-logos",
+                  "src": "enzyme-jest.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "Travis CI logo",
+                  "className": "travisci-logo",
+                  "src": "travisCI-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1>
+                  Workflow/Tools
+                </h1>,
+                <img
+                  alt="git logo"
+                  className="git-logo"
+                  src="git-logo.png"
+                />,
+                <img
+                  alt="github logo"
+                  className="github-logo"
+                  src="github-logo.png"
+                />,
+                <img
+                  alt="heroku logo"
+                  className="heroku-logo"
+                  src="heroku-logo.png"
+                />,
+                <img
+                  alt="waffle IO logo"
+                  className="waffleio-logo"
+                  src="waffleio.png"
+                />,
+                <img
+                  alt="jira logo"
+                  className="jira-logo"
+                  src="jira-logo.png"
+                />,
+              ],
+              "className": "workflow-skills",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Workflow/Tools",
+                },
+                "ref": null,
+                "rendered": "Workflow/Tools",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "git logo",
+                  "className": "git-logo",
+                  "src": "git-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "github logo",
+                  "className": "github-logo",
+                  "src": "github-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "heroku logo",
+                  "className": "heroku-logo",
+                  "src": "heroku-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "waffle IO logo",
+                  "className": "waffleio-logo",
+                  "src": "waffleio.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "jira logo",
+                  "className": "jira-logo",
+                  "src": "jira-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1>
+                  Currently Learning
+                </h1>,
+                <img
+                  alt="ember logo"
+                  className="ember-logo"
+                  src="ember-logo.svg"
+                />,
+                <img
+                  alt="vue logo"
+                  className="vue-logo"
+                  src="vue-logo.svg"
+                />,
+                <img
+                  alt="angular logo"
+                  className="angular-logo"
+                  src="angular-logo.svg"
+                />,
+                <img
+                  alt="cucumber logo"
+                  className="cucumber-logo"
+                  src="cucumber-logo.png"
+                />,
+              ],
+              "className": "currently-learning-skills",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Currently Learning",
+                },
+                "ref": null,
+                "rendered": "Currently Learning",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "ember logo",
+                  "className": "ember-logo",
+                  "src": "ember-logo.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "vue logo",
+                  "className": "vue-logo",
+                  "src": "vue-logo.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "angular logo",
+                  "className": "angular-logo",
+                  "src": "angular-logo.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "cucumber logo",
+                  "className": "cucumber-logo",
+                  "src": "cucumber-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

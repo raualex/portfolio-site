@@ -1,18 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Bio.css';
 
-export class Bio extends Component {
-  constructor() {
-    super()
-  }
+export default function Bio() {
 
-  render() {
-    return(
-      <div>
-        <h1>My Bio!</h1>
-      </div>
-    )
-  }
+  return(
+    <div className='bio-container'>
+      <h1>My Bio!</h1>
+    </div>
+  )
 }
-
-export default Bio;
