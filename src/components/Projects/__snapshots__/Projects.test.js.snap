@@ -18,9 +18,75 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        My Projects!
-      </h1>,
+      "children": <div
+        className="project-links-box"
+      >
+        <h1
+          className="projects-title"
+        >
+          Recent and On-going Projects
+        </h1>
+        <div
+          className="mentormatch-container"
+        >
+          <h2>
+            Mentor Match
+          </h2>
+          <img
+            alt="mentor match screenshot"
+            className="mm-screenshot"
+            src="mentor-match-screenshot.png"
+          />
+        </div>
+        <div
+          className="ebmdb-container"
+        >
+          <h2>
+            EBM Database (in progress)
+          </h2>
+          <img
+            alt="EBM Database screenshot"
+            className="ebmdb-screenshot"
+            src="ebm-database.png"
+          />
+        </div>
+        <div
+          className="bandr-container"
+        >
+          <h2>
+            Bread and Roses
+          </h2>
+          <img
+            alt="bread and roses screenshot"
+            className="bar-screenshot"
+            src="breadandroses-screenshot.png"
+          />
+        </div>
+        <div
+          className="swapibox-container"
+        >
+          <h2>
+            SWAPIbox
+          </h2>
+          <img
+            alt="swapi box screenshot"
+            className="swapi-screenshot"
+            src="swapibox-screenshot.png"
+          />
+        </div>
+        <div
+          className="gametime-container"
+        >
+          <h2>
+            Game Time - Snake
+          </h2>
+          <img
+            alt="game time screenshot"
+            className="gametime-screenshot"
+            src="gametime-screenshot.jpg"
+          />
+        </div>
+      </div>,
       "className": "projects-container",
     },
     "ref": null,
@@ -29,11 +95,321 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "My Projects!",
+        "children": Array [
+          <h1
+            className="projects-title"
+          >
+            Recent and On-going Projects
+          </h1>,
+          <div
+            className="mentormatch-container"
+          >
+            <h2>
+              Mentor Match
+            </h2>
+            <img
+              alt="mentor match screenshot"
+              className="mm-screenshot"
+              src="mentor-match-screenshot.png"
+            />
+          </div>,
+          <div
+            className="ebmdb-container"
+          >
+            <h2>
+              EBM Database (in progress)
+            </h2>
+            <img
+              alt="EBM Database screenshot"
+              className="ebmdb-screenshot"
+              src="ebm-database.png"
+            />
+          </div>,
+          <div
+            className="bandr-container"
+          >
+            <h2>
+              Bread and Roses
+            </h2>
+            <img
+              alt="bread and roses screenshot"
+              className="bar-screenshot"
+              src="breadandroses-screenshot.png"
+            />
+          </div>,
+          <div
+            className="swapibox-container"
+          >
+            <h2>
+              SWAPIbox
+            </h2>
+            <img
+              alt="swapi box screenshot"
+              className="swapi-screenshot"
+              src="swapibox-screenshot.png"
+            />
+          </div>,
+          <div
+            className="gametime-container"
+          >
+            <h2>
+              Game Time - Snake
+            </h2>
+            <img
+              alt="game time screenshot"
+              className="gametime-screenshot"
+              src="gametime-screenshot.jpg"
+            />
+          </div>,
+        ],
+        "className": "project-links-box",
       },
       "ref": null,
-      "rendered": "My Projects!",
-      "type": "h1",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Recent and On-going Projects",
+            "className": "projects-title",
+          },
+          "ref": null,
+          "rendered": "Recent and On-going Projects",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Mentor Match
+              </h2>,
+              <img
+                alt="mentor match screenshot"
+                className="mm-screenshot"
+                src="mentor-match-screenshot.png"
+              />,
+            ],
+            "className": "mentormatch-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Mentor Match",
+              },
+              "ref": null,
+              "rendered": "Mentor Match",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "mentor match screenshot",
+                "className": "mm-screenshot",
+                "src": "mentor-match-screenshot.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                EBM Database (in progress)
+              </h2>,
+              <img
+                alt="EBM Database screenshot"
+                className="ebmdb-screenshot"
+                src="ebm-database.png"
+              />,
+            ],
+            "className": "ebmdb-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "EBM Database (in progress)",
+              },
+              "ref": null,
+              "rendered": "EBM Database (in progress)",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "EBM Database screenshot",
+                "className": "ebmdb-screenshot",
+                "src": "ebm-database.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Bread and Roses
+              </h2>,
+              <img
+                alt="bread and roses screenshot"
+                className="bar-screenshot"
+                src="breadandroses-screenshot.png"
+              />,
+            ],
+            "className": "bandr-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Bread and Roses",
+              },
+              "ref": null,
+              "rendered": "Bread and Roses",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "bread and roses screenshot",
+                "className": "bar-screenshot",
+                "src": "breadandroses-screenshot.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                SWAPIbox
+              </h2>,
+              <img
+                alt="swapi box screenshot"
+                className="swapi-screenshot"
+                src="swapibox-screenshot.png"
+              />,
+            ],
+            "className": "swapibox-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "SWAPIbox",
+              },
+              "ref": null,
+              "rendered": "SWAPIbox",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "swapi box screenshot",
+                "className": "swapi-screenshot",
+                "src": "swapibox-screenshot.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Game Time - Snake
+              </h2>,
+              <img
+                alt="game time screenshot"
+                className="gametime-screenshot"
+                src="gametime-screenshot.jpg"
+              />,
+            ],
+            "className": "gametime-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Game Time - Snake",
+              },
+              "ref": null,
+              "rendered": "Game Time - Snake",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "game time screenshot",
+                "className": "gametime-screenshot",
+                "src": "gametime-screenshot.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
     },
     "type": "div",
   },
@@ -43,9 +419,75 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-          My Projects!
-        </h1>,
+        "children": <div
+          className="project-links-box"
+        >
+          <h1
+            className="projects-title"
+          >
+            Recent and On-going Projects
+          </h1>
+          <div
+            className="mentormatch-container"
+          >
+            <h2>
+              Mentor Match
+            </h2>
+            <img
+              alt="mentor match screenshot"
+              className="mm-screenshot"
+              src="mentor-match-screenshot.png"
+            />
+          </div>
+          <div
+            className="ebmdb-container"
+          >
+            <h2>
+              EBM Database (in progress)
+            </h2>
+            <img
+              alt="EBM Database screenshot"
+              className="ebmdb-screenshot"
+              src="ebm-database.png"
+            />
+          </div>
+          <div
+            className="bandr-container"
+          >
+            <h2>
+              Bread and Roses
+            </h2>
+            <img
+              alt="bread and roses screenshot"
+              className="bar-screenshot"
+              src="breadandroses-screenshot.png"
+            />
+          </div>
+          <div
+            className="swapibox-container"
+          >
+            <h2>
+              SWAPIbox
+            </h2>
+            <img
+              alt="swapi box screenshot"
+              className="swapi-screenshot"
+              src="swapibox-screenshot.png"
+            />
+          </div>
+          <div
+            className="gametime-container"
+          >
+            <h2>
+              Game Time - Snake
+            </h2>
+            <img
+              alt="game time screenshot"
+              className="gametime-screenshot"
+              src="gametime-screenshot.jpg"
+            />
+          </div>
+        </div>,
         "className": "projects-container",
       },
       "ref": null,
@@ -54,11 +496,321 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "My Projects!",
+          "children": Array [
+            <h1
+              className="projects-title"
+            >
+              Recent and On-going Projects
+            </h1>,
+            <div
+              className="mentormatch-container"
+            >
+              <h2>
+                Mentor Match
+              </h2>
+              <img
+                alt="mentor match screenshot"
+                className="mm-screenshot"
+                src="mentor-match-screenshot.png"
+              />
+            </div>,
+            <div
+              className="ebmdb-container"
+            >
+              <h2>
+                EBM Database (in progress)
+              </h2>
+              <img
+                alt="EBM Database screenshot"
+                className="ebmdb-screenshot"
+                src="ebm-database.png"
+              />
+            </div>,
+            <div
+              className="bandr-container"
+            >
+              <h2>
+                Bread and Roses
+              </h2>
+              <img
+                alt="bread and roses screenshot"
+                className="bar-screenshot"
+                src="breadandroses-screenshot.png"
+              />
+            </div>,
+            <div
+              className="swapibox-container"
+            >
+              <h2>
+                SWAPIbox
+              </h2>
+              <img
+                alt="swapi box screenshot"
+                className="swapi-screenshot"
+                src="swapibox-screenshot.png"
+              />
+            </div>,
+            <div
+              className="gametime-container"
+            >
+              <h2>
+                Game Time - Snake
+              </h2>
+              <img
+                alt="game time screenshot"
+                className="gametime-screenshot"
+                src="gametime-screenshot.jpg"
+              />
+            </div>,
+          ],
+          "className": "project-links-box",
         },
         "ref": null,
-        "rendered": "My Projects!",
-        "type": "h1",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Recent and On-going Projects",
+              "className": "projects-title",
+            },
+            "ref": null,
+            "rendered": "Recent and On-going Projects",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Mentor Match
+                </h2>,
+                <img
+                  alt="mentor match screenshot"
+                  className="mm-screenshot"
+                  src="mentor-match-screenshot.png"
+                />,
+              ],
+              "className": "mentormatch-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Mentor Match",
+                },
+                "ref": null,
+                "rendered": "Mentor Match",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "mentor match screenshot",
+                  "className": "mm-screenshot",
+                  "src": "mentor-match-screenshot.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  EBM Database (in progress)
+                </h2>,
+                <img
+                  alt="EBM Database screenshot"
+                  className="ebmdb-screenshot"
+                  src="ebm-database.png"
+                />,
+              ],
+              "className": "ebmdb-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "EBM Database (in progress)",
+                },
+                "ref": null,
+                "rendered": "EBM Database (in progress)",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "EBM Database screenshot",
+                  "className": "ebmdb-screenshot",
+                  "src": "ebm-database.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Bread and Roses
+                </h2>,
+                <img
+                  alt="bread and roses screenshot"
+                  className="bar-screenshot"
+                  src="breadandroses-screenshot.png"
+                />,
+              ],
+              "className": "bandr-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Bread and Roses",
+                },
+                "ref": null,
+                "rendered": "Bread and Roses",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "bread and roses screenshot",
+                  "className": "bar-screenshot",
+                  "src": "breadandroses-screenshot.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  SWAPIbox
+                </h2>,
+                <img
+                  alt="swapi box screenshot"
+                  className="swapi-screenshot"
+                  src="swapibox-screenshot.png"
+                />,
+              ],
+              "className": "swapibox-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "SWAPIbox",
+                },
+                "ref": null,
+                "rendered": "SWAPIbox",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "swapi box screenshot",
+                  "className": "swapi-screenshot",
+                  "src": "swapibox-screenshot.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Game Time - Snake
+                </h2>,
+                <img
+                  alt="game time screenshot"
+                  className="gametime-screenshot"
+                  src="gametime-screenshot.jpg"
+                />,
+              ],
+              "className": "gametime-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Game Time - Snake",
+                },
+                "ref": null,
+                "rendered": "Game Time - Snake",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "game time screenshot",
+                  "className": "gametime-screenshot",
+                  "src": "gametime-screenshot.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
       },
       "type": "div",
     },
@@ -84,5 +836,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
