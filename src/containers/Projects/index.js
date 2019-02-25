@@ -7,6 +7,7 @@ import swapibox from '../../utils/assets/screenshots/swapibox-screenshot.png';
 import gametime from '../../utils/assets/screenshots/gametime-screenshot.jpg';
 import { connect } from 'react-redux';
 import { selectProject } from '../../actions/selection-actions';
+import ProjectModal from '../ProjectModal';
 
 export class Projects extends Component {
   // constructor(props) {
@@ -14,39 +15,47 @@ export class Projects extends Component {
   // }
 
   setProject = (project) => {
-    console.log(project)
+    let { setSelectedProj } = this.props
+    setSelectedProj(project)
   }
 
   render() {
-  return(
-    <div className='projects-container'>
-      <div className='project-links-box'>
-        <div className='projects-titles-container'>
-          <h1 className='projects-title'>Recent and On-going Projects</h1>
-          <h4>(Click the screenshot to see more info)</h4>
-        </div>
-        <div 
-          className='mentormatch-container'
-          onClick={() => this.setProject('Mentor Match')}
-        >
-          <h2>Mentor Match</h2>
-          <img 
-            src={mmatch}
-            alt='mentor match screenshot'
-            className='mm-screenshot' 
-          />
-        </div>
-        <div 
-          className='ebmdb-container'
-          onClick={() => this.setProject('EBM Database')}
-        >
-          <h2>EBM Database (in progress)</h2>
-          <img 
-            src={ebmdb}
-            alt='EBM Database screenshot'
-            className='ebmdb-screenshot' 
-          />
-        </div>
+    let { selectedProj } = this.props
+    let modal;
+
+    if (selectedProj !== '') {
+      modal = <ProjectModal />
+    }
+
+    return(
+      <div className='projects-container'>
+        <div className='project-links-box'>
+          <div className='projects-titles-container'>
+            <h1 className='projects-title'>Recent and On-going Projects</h1>
+            <h4>(Click the screenshot to see more info)</h4>
+          </div>
+          <div 
+            className='mentormatch-container'
+            onClick={() => this.setProject('Mentor Match')}
+          >
+            <h2>Mentor Match</h2>
+            <img 
+              src={mmatch}
+              alt='mentor match screenshot'
+              className='mm-screenshot' 
+            />
+          </div>
+          <div 
+            className='ebmdb-container'
+            onClick={() => this.setProject('EBM Database')}
+          >
+            <h2>EBM Database (in progress)</h2>
+            <img 
+              src={ebmdb}
+              alt='EBM Database screenshot'
+              className='ebmdb-screenshot' 
+            />
+          </div>
           <div 
             className='bandr-container'
             onClick={() => this.setProject('Bread and Roses')}
@@ -80,6 +89,7 @@ export class Projects extends Component {
               className='gametime-screenshot' 
             />
           </div>
+          { modal }
         </div>
       </div>
     )

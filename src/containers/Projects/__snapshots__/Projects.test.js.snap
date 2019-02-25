@@ -21,13 +21,21 @@ ShallowWrapper {
       "children": <div
         className="project-links-box"
       >
-        <h1
-          className="projects-title"
+        <div
+          className="projects-titles-container"
         >
-          Recent and On-going Projects
-        </h1>
+          <h1
+            className="projects-title"
+          >
+            Recent and On-going Projects
+          </h1>
+          <h4>
+            (Click the screenshot to see more info)
+          </h4>
+        </div>
         <div
           className="mentormatch-container"
+          onClick={[Function]}
         >
           <h2>
             Mentor Match
@@ -40,6 +48,7 @@ ShallowWrapper {
         </div>
         <div
           className="ebmdb-container"
+          onClick={[Function]}
         >
           <h2>
             EBM Database (in progress)
@@ -52,6 +61,7 @@ ShallowWrapper {
         </div>
         <div
           className="bandr-container"
+          onClick={[Function]}
         >
           <h2>
             Bread and Roses
@@ -64,6 +74,7 @@ ShallowWrapper {
         </div>
         <div
           className="swapibox-container"
+          onClick={[Function]}
         >
           <h2>
             SWAPIbox
@@ -76,6 +87,7 @@ ShallowWrapper {
         </div>
         <div
           className="gametime-container"
+          onClick={[Function]}
         >
           <h2>
             Game Time - Snake
@@ -86,6 +98,7 @@ ShallowWrapper {
             src="gametime-screenshot.jpg"
           />
         </div>
+        <Connect(ProjectModal) />
       </div>,
       "className": "projects-container",
     },
@@ -96,13 +109,21 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1
-            className="projects-title"
+          <div
+            className="projects-titles-container"
           >
-            Recent and On-going Projects
-          </h1>,
+            <h1
+              className="projects-title"
+            >
+              Recent and On-going Projects
+            </h1>
+            <h4>
+              (Click the screenshot to see more info)
+            </h4>
+          </div>,
           <div
             className="mentormatch-container"
+            onClick={[Function]}
           >
             <h2>
               Mentor Match
@@ -115,6 +136,7 @@ ShallowWrapper {
           </div>,
           <div
             className="ebmdb-container"
+            onClick={[Function]}
           >
             <h2>
               EBM Database (in progress)
@@ -127,6 +149,7 @@ ShallowWrapper {
           </div>,
           <div
             className="bandr-container"
+            onClick={[Function]}
           >
             <h2>
               Bread and Roses
@@ -139,6 +162,7 @@ ShallowWrapper {
           </div>,
           <div
             className="swapibox-container"
+            onClick={[Function]}
           >
             <h2>
               SWAPIbox
@@ -151,6 +175,7 @@ ShallowWrapper {
           </div>,
           <div
             className="gametime-container"
+            onClick={[Function]}
           >
             <h2>
               Game Time - Snake
@@ -161,6 +186,7 @@ ShallowWrapper {
               src="gametime-screenshot.jpg"
             />
           </div>,
+          <Connect(ProjectModal) />,
         ],
         "className": "project-links-box",
       },
@@ -171,12 +197,45 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Recent and On-going Projects",
-            "className": "projects-title",
+            "children": Array [
+              <h1
+                className="projects-title"
+              >
+                Recent and On-going Projects
+              </h1>,
+              <h4>
+                (Click the screenshot to see more info)
+              </h4>,
+            ],
+            "className": "projects-titles-container",
           },
           "ref": null,
-          "rendered": "Recent and On-going Projects",
-          "type": "h1",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Recent and On-going Projects",
+                "className": "projects-title",
+              },
+              "ref": null,
+              "rendered": "Recent and On-going Projects",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "(Click the screenshot to see more info)",
+              },
+              "ref": null,
+              "rendered": "(Click the screenshot to see more info)",
+              "type": "h4",
+            },
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -194,6 +253,7 @@ ShallowWrapper {
               />,
             ],
             "className": "mentormatch-container",
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -240,6 +300,7 @@ ShallowWrapper {
               />,
             ],
             "className": "ebmdb-container",
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -286,6 +347,7 @@ ShallowWrapper {
               />,
             ],
             "className": "bandr-container",
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -332,6 +394,7 @@ ShallowWrapper {
               />,
             ],
             "className": "swapibox-container",
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -378,6 +441,7 @@ ShallowWrapper {
               />,
             ],
             "className": "gametime-container",
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -408,6 +472,15 @@ ShallowWrapper {
           ],
           "type": "div",
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
       ],
       "type": "div",
     },
@@ -422,13 +495,21 @@ ShallowWrapper {
         "children": <div
           className="project-links-box"
         >
-          <h1
-            className="projects-title"
+          <div
+            className="projects-titles-container"
           >
-            Recent and On-going Projects
-          </h1>
+            <h1
+              className="projects-title"
+            >
+              Recent and On-going Projects
+            </h1>
+            <h4>
+              (Click the screenshot to see more info)
+            </h4>
+          </div>
           <div
             className="mentormatch-container"
+            onClick={[Function]}
           >
             <h2>
               Mentor Match
@@ -441,6 +522,7 @@ ShallowWrapper {
           </div>
           <div
             className="ebmdb-container"
+            onClick={[Function]}
           >
             <h2>
               EBM Database (in progress)
@@ -453,6 +535,7 @@ ShallowWrapper {
           </div>
           <div
             className="bandr-container"
+            onClick={[Function]}
           >
             <h2>
               Bread and Roses
@@ -465,6 +548,7 @@ ShallowWrapper {
           </div>
           <div
             className="swapibox-container"
+            onClick={[Function]}
           >
             <h2>
               SWAPIbox
@@ -477,6 +561,7 @@ ShallowWrapper {
           </div>
           <div
             className="gametime-container"
+            onClick={[Function]}
           >
             <h2>
               Game Time - Snake
@@ -487,6 +572,7 @@ ShallowWrapper {
               src="gametime-screenshot.jpg"
             />
           </div>
+          <Connect(ProjectModal) />
         </div>,
         "className": "projects-container",
       },
@@ -497,13 +583,21 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <h1
-              className="projects-title"
+            <div
+              className="projects-titles-container"
             >
-              Recent and On-going Projects
-            </h1>,
+              <h1
+                className="projects-title"
+              >
+                Recent and On-going Projects
+              </h1>
+              <h4>
+                (Click the screenshot to see more info)
+              </h4>
+            </div>,
             <div
               className="mentormatch-container"
+              onClick={[Function]}
             >
               <h2>
                 Mentor Match
@@ -516,6 +610,7 @@ ShallowWrapper {
             </div>,
             <div
               className="ebmdb-container"
+              onClick={[Function]}
             >
               <h2>
                 EBM Database (in progress)
@@ -528,6 +623,7 @@ ShallowWrapper {
             </div>,
             <div
               className="bandr-container"
+              onClick={[Function]}
             >
               <h2>
                 Bread and Roses
@@ -540,6 +636,7 @@ ShallowWrapper {
             </div>,
             <div
               className="swapibox-container"
+              onClick={[Function]}
             >
               <h2>
                 SWAPIbox
@@ -552,6 +649,7 @@ ShallowWrapper {
             </div>,
             <div
               className="gametime-container"
+              onClick={[Function]}
             >
               <h2>
                 Game Time - Snake
@@ -562,6 +660,7 @@ ShallowWrapper {
                 src="gametime-screenshot.jpg"
               />
             </div>,
+            <Connect(ProjectModal) />,
           ],
           "className": "project-links-box",
         },
@@ -572,12 +671,45 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Recent and On-going Projects",
-              "className": "projects-title",
+              "children": Array [
+                <h1
+                  className="projects-title"
+                >
+                  Recent and On-going Projects
+                </h1>,
+                <h4>
+                  (Click the screenshot to see more info)
+                </h4>,
+              ],
+              "className": "projects-titles-container",
             },
             "ref": null,
-            "rendered": "Recent and On-going Projects",
-            "type": "h1",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Recent and On-going Projects",
+                  "className": "projects-title",
+                },
+                "ref": null,
+                "rendered": "Recent and On-going Projects",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "(Click the screenshot to see more info)",
+                },
+                "ref": null,
+                "rendered": "(Click the screenshot to see more info)",
+                "type": "h4",
+              },
+            ],
+            "type": "div",
           },
           Object {
             "instance": null,
@@ -595,6 +727,7 @@ ShallowWrapper {
                 />,
               ],
               "className": "mentormatch-container",
+              "onClick": [Function],
             },
             "ref": null,
             "rendered": Array [
@@ -641,6 +774,7 @@ ShallowWrapper {
                 />,
               ],
               "className": "ebmdb-container",
+              "onClick": [Function],
             },
             "ref": null,
             "rendered": Array [
@@ -687,6 +821,7 @@ ShallowWrapper {
                 />,
               ],
               "className": "bandr-container",
+              "onClick": [Function],
             },
             "ref": null,
             "rendered": Array [
@@ -733,6 +868,7 @@ ShallowWrapper {
                 />,
               ],
               "className": "swapibox-container",
+              "onClick": [Function],
             },
             "ref": null,
             "rendered": Array [
@@ -779,6 +915,7 @@ ShallowWrapper {
                 />,
               ],
               "className": "gametime-container",
+              "onClick": [Function],
             },
             "ref": null,
             "rendered": Array [
@@ -808,6 +945,15 @@ ShallowWrapper {
               },
             ],
             "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
           },
         ],
         "type": "div",
