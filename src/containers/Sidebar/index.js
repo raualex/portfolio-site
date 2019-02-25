@@ -6,9 +6,9 @@ import './Sidebar.css';
 import profile from '../../utils/assets/profile.jpg';
 
 export class Sidebar extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   setNav = (event) => {
     let { setSelectedNav } = this.props
