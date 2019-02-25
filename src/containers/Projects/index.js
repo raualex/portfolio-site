@@ -5,11 +5,17 @@ import bandr from '../../utils/assets/screenshots/breadandroses-screenshot.png';
 import ebmdb from '../../utils/assets/screenshots/ebm-database.png';
 import swapibox from '../../utils/assets/screenshots/swapibox-screenshot.png';
 import gametime from '../../utils/assets/screenshots/gametime-screenshot.jpg';
+import { connect } from 'react-redux';
+import { selectProject } from '../../actions/selection-actions';
 
 export class Projects extends Component {
   // constructor(props) {
   //   super(props);
   // }
+
+  setProject = (project) => {
+    console.log(project)
+  }
 
   render() {
   return(
@@ -19,7 +25,10 @@ export class Projects extends Component {
           <h1 className='projects-title'>Recent and On-going Projects</h1>
           <h4>(Click the screenshot to see more info)</h4>
         </div>
-        <div className='mentormatch-container'>
+        <div 
+          className='mentormatch-container'
+          onClick={() => this.setProject('Mentor Match')}
+        >
           <h2>Mentor Match</h2>
           <img 
             src={mmatch}
@@ -27,7 +36,10 @@ export class Projects extends Component {
             className='mm-screenshot' 
           />
         </div>
-        <div className='ebmdb-container'>
+        <div 
+          className='ebmdb-container'
+          onClick={() => this.setProject('EBM Database')}
+        >
           <h2>EBM Database (in progress)</h2>
           <img 
             src={ebmdb}
@@ -35,7 +47,10 @@ export class Projects extends Component {
             className='ebmdb-screenshot' 
           />
         </div>
-          <div className='bandr-container'>
+          <div 
+            className='bandr-container'
+            onClick={() => this.setProject('Bread and Roses')}
+          >
             <h2>Bread and Roses</h2>
             <img 
               src={bandr}
@@ -43,7 +58,10 @@ export class Projects extends Component {
               className='bar-screenshot' 
             />
           </div>
-          <div className='swapibox-container'>
+          <div 
+            className='swapibox-container'
+            onClick={() => this.setProject('SWAPIbox')}
+          >
             <h2>SWAPIbox</h2>
             <img 
               src={swapibox}
@@ -51,7 +69,10 @@ export class Projects extends Component {
               className='swapi-screenshot' 
             />
           </div>
-          <div className='gametime-container'>
+          <div 
+            className='gametime-container'
+            onClick={() => this.setProject('Game Time - Snake')}
+          >
             <h2>Game Time - Snake</h2>
             <img 
               src={gametime}
@@ -65,4 +86,12 @@ export class Projects extends Component {
   }
 }
 
-export default Projects;
+export const mapStateToProps = (state) => ({
+  selectedProj: state.selectedProj
+});
+
+export const mapDispatchToProps = (dispatch) => ({
+  setSelectedProj: (proj) => dispatch(selectProject(proj))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Projects);
