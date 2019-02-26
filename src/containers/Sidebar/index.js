@@ -22,10 +22,10 @@ export class Sidebar extends Component {
   }
 
   render() {
-    let { selectedNav } = this.props
+    let { selectedNav, selectedProj } = this.props
     
     return(
-      <div className='nav-bar-container'>
+      <div className={selectedProj === '' ? 'nav-bar-container' : 'nav-bar-container blur'}>
         <img 
           src={profile} 
           alt='Profile'

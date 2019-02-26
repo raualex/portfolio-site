@@ -18,19 +18,23 @@ export class ProjectModal extends Component {
     let { selectedProj } = this.props
 
     return (
-      <div className='project-modal-container'>
-        <div className='modal-heading'>
-          <h1 className='modal-project-title'>{selectedProj}</h1>
-          <button 
-            className='exit-btn'
-            onClick={this.resetProject}
-          >X</button>
+      <div className='project-modal-outer'>
+        <div className='project-modal-container'>
+          <div className='modal-heading'>
+            <div className='title-container'>
+              <h1>{selectedProj}</h1>
+            </div>
+            <button 
+              className='exit-btn'
+              onClick={this.resetProject}
+            >X</button>
+          </div>
+          <img 
+            src={`${projectPics[selectedProj]}`} 
+            alt='screenshot of project'
+            className='modal-screenshot' 
+          />
         </div>
-        <img 
-          src={`${projectPics[selectedProj]}`} 
-          alt='screenshot of project'
-          className='modal-screenshot' 
-        />
       </div>
     )
   }

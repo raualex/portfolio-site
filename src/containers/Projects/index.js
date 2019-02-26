@@ -21,14 +21,9 @@ export class Projects extends Component {
 
   render() {
     let { selectedProj } = this.props
-    let modal;
-
-    if (selectedProj !== '') {
-      modal = <ProjectModal />
-    }
 
     return(
-      <div className='projects-container'>
+      <div className={selectedProj === '' ? 'projects-container' : 'projects-container blur'}>
         <div className='project-links-box'>
           <div className='projects-titles-container'>
             <h1 className='projects-title'>Recent and On-going Projects</h1>
@@ -89,7 +84,6 @@ export class Projects extends Component {
               className='gametime-screenshot' 
             />
           </div>
-          { modal }
         </div>
       </div>
     )
