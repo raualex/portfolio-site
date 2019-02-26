@@ -5,6 +5,7 @@ import { shallow } from 'enzyme';
 describe('Sidebar', () => {
   let wrapper;
   let mockFunc = jest.fn();
+  let mockFunc2 = jest.fn();
 
   beforeEach(() => {
     wrapper = shallow(<Sidebar setSelectedNav={mockFunc} selectedProj={''} />)
@@ -19,6 +20,13 @@ describe('Sidebar', () => {
       let mockEvent = { target: { innerHTML: 'Bio' } }
       wrapper.instance().setNav(mockEvent)
       expect(mockFunc).toHaveBeenCalledWith('Bio')
+    });
+
+    it('should prevent the default action if there is a project selected', () => {
+      wrapper = shallow(<Sidebar setSelectedNav={mockFunc} selectedProj={'Bio'} />)
+      let mockEvent = { preventDefault: mockFunc2, target: { innerHTML: 'Bio' } }
+      wrapper.instance().setNav(mockEvent)
+      expect(mockFunc2).toHaveBeenCalled()
     });
   });
 });
