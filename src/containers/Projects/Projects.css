@@ -1,0 +1,51 @@
+.projects-container {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.project-links-box {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  height: 460px;
+  justify-content: center;
+  overflow: auto;
+}
+
+.projects-titles-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-title {
+  margin: 0;
+}
+
+.mentormatch-container,
+.ebmdb-container,
+.bandr-container,
+.swapibox-container,
+.gametime-container {
+  border: solid 2px #000;
+  margin-bottom: 30px;
+}
+
+.mentormatch-container:hover,
+.ebmdb-container:hover,
+.bandr-container:hover,
+.swapibox-container:hover,
+.gametime-container:hover {
+  cursor: pointer;
+} 
+
+.mm-screenshot,
+.bar-screenshot,
+.ebmdb-screenshot,
+.swapi-screenshot,
+.gametime-screenshot {
+  border-top: solid 2px #000;
+  height: 400px;
+  width: 750px;
+}

@@ -6,3 +6,12 @@ export const setSelectedNav = (state = '', action) => {
       return state
   }
 }
+
+export const setSelectedProj = (state = '', action) => {
+  switch(action.type) {
+    case 'SELECTED_PROJECT':
+      return action.selectedProj
+    default:
+      return state
+  }
+}
