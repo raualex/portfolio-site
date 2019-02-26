@@ -11,10 +11,14 @@ export class Sidebar extends Component {
   // }
 
   setNav = (event) => {
-    let { setSelectedNav } = this.props
+    let { setSelectedNav, selectedProj } = this.props
     let { innerHTML } = event.target
-
-    setSelectedNav(innerHTML)
+    
+    if (selectedProj === '') {
+      setSelectedNav(innerHTML)
+    } else {
+      event.preventDefault()
+    }
   }
 
   render() {
@@ -59,7 +63,8 @@ export class Sidebar extends Component {
 }
 
 export const mapStateToProps = (state) => ({
-  selectedNav: state.selectedNav
+  selectedNav: state.selectedNav,
+  selectedProj: state.selectedProj
 });
 
 export const mapDispatchToProps = (dispatch) => ({
