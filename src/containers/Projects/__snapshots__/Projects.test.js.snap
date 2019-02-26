@@ -98,9 +98,8 @@ ShallowWrapper {
             src="gametime-screenshot.jpg"
           />
         </div>
-        <Connect(ProjectModal) />
       </div>,
-      "className": "projects-container",
+      "className": "projects-container blur",
     },
     "ref": null,
     "rendered": Object {
@@ -186,7 +185,6 @@ ShallowWrapper {
               src="gametime-screenshot.jpg"
             />
           </div>,
-          <Connect(ProjectModal) />,
         ],
         "className": "project-links-box",
       },
@@ -472,15 +470,6 @@ ShallowWrapper {
           ],
           "type": "div",
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
       ],
       "type": "div",
     },
@@ -572,9 +561,8 @@ ShallowWrapper {
               src="gametime-screenshot.jpg"
             />
           </div>
-          <Connect(ProjectModal) />
         </div>,
-        "className": "projects-container",
+        "className": "projects-container blur",
       },
       "ref": null,
       "rendered": Object {
@@ -660,7 +648,6 @@ ShallowWrapper {
                 src="gametime-screenshot.jpg"
               />
             </div>,
-            <Connect(ProjectModal) />,
           ],
           "className": "project-links-box",
         },
@@ -945,15 +932,6 @@ ShallowWrapper {
               },
             ],
             "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
           },
         ],
         "type": "div",

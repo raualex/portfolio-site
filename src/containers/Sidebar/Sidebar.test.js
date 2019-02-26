@@ -7,7 +7,7 @@ describe('Sidebar', () => {
   let mockFunc = jest.fn();
 
   beforeEach(() => {
-    wrapper = shallow(<Sidebar setSelectedNav={mockFunc} />)
+    wrapper = shallow(<Sidebar setSelectedNav={mockFunc} selectedProj={''} />)
   });
 
   it('should match the snapshot', () => {
@@ -15,7 +15,7 @@ describe('Sidebar', () => {
   });
 
   describe('setNav function', () => {
-    it('should fire setSelectedNav with the correct params', () => {
+    it('should fire setSelectedNav with the correct params if no project selected', () => {
       let mockEvent = { target: { innerHTML: 'Bio' } }
       wrapper.instance().setNav(mockEvent)
       expect(mockFunc).toHaveBeenCalledWith('Bio')

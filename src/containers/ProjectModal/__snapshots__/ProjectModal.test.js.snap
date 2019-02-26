@@ -18,57 +18,59 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <h1 />,
-        <button
-          onClick={[Function]}
+      "children": <div
+        className="project-modal-container"
+      >
+        <div
+          className="modal-heading"
         >
-          X
-        </button>,
-      ],
-      "className": "project-modal-container",
+          <div
+            className="title-container"
+          >
+            <h1 />
+          </div>
+          <button
+            className="exit-btn"
+            onClick={[Function]}
+          >
+            X
+          </button>
+        </div>
+        <img
+          alt="screenshot of project"
+          className="modal-screenshot"
+          src="undefined"
+        />
+      </div>,
+      "className": "project-modal-outer",
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "X",
-          "onClick": [Function],
-        },
-        "ref": null,
-        "rendered": "X",
-        "type": "button",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1 />,
-          <button
-            onClick={[Function]}
+          <div
+            className="modal-heading"
           >
-            X
-          </button>,
+            <div
+              className="title-container"
+            >
+              <h1 />
+            </div>
+            <button
+              className="exit-btn"
+              onClick={[Function]}
+            >
+              X
+            </button>
+          </div>,
+          <img
+            alt="screenshot of project"
+            className="modal-screenshot"
+            src="undefined"
+          />,
         ],
         "className": "project-modal-container",
       },
@@ -79,25 +81,219 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": Array [
+              <div
+                className="title-container"
+              >
+                <h1 />
+              </div>,
+              <button
+                className="exit-btn"
+                onClick={[Function]}
+              >
+                X
+              </button>,
+            ],
+            "className": "modal-heading",
           },
           "ref": null,
-          "rendered": null,
-          "type": "h1",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h1 />,
+                "className": "title-container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h1",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "X",
+                "className": "exit-btn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "X",
+              "type": "button",
+            },
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "X",
-            "onClick": [Function],
+            "alt": "screenshot of project",
+            "className": "modal-screenshot",
+            "src": "undefined",
           },
           "ref": null,
-          "rendered": "X",
-          "type": "button",
+          "rendered": null,
+          "type": "img",
         },
       ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="project-modal-container"
+        >
+          <div
+            className="modal-heading"
+          >
+            <div
+              className="title-container"
+            >
+              <h1 />
+            </div>
+            <button
+              className="exit-btn"
+              onClick={[Function]}
+            >
+              X
+            </button>
+          </div>
+          <img
+            alt="screenshot of project"
+            className="modal-screenshot"
+            src="undefined"
+          />
+        </div>,
+        "className": "project-modal-outer",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="modal-heading"
+            >
+              <div
+                className="title-container"
+              >
+                <h1 />
+              </div>
+              <button
+                className="exit-btn"
+                onClick={[Function]}
+              >
+                X
+              </button>
+            </div>,
+            <img
+              alt="screenshot of project"
+              className="modal-screenshot"
+              src="undefined"
+            />,
+          ],
+          "className": "project-modal-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="title-container"
+                >
+                  <h1 />
+                </div>,
+                <button
+                  className="exit-btn"
+                  onClick={[Function]}
+                >
+                  X
+                </button>,
+              ],
+              "className": "modal-heading",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h1 />,
+                  "className": "title-container",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "h1",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "X",
+                  "className": "exit-btn",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "X",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "screenshot of project",
+              "className": "modal-screenshot",
+              "src": "undefined",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": "div",
+      },
       "type": "div",
     },
   ],
