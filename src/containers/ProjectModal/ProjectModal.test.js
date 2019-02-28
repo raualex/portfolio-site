@@ -7,7 +7,7 @@ describe('ProjectModal', () => {
   let mockFunc = jest.fn()
 
   beforeEach(() => {
-    wrapper = shallow(<ProjectModal setSelectedProj={mockFunc} />)
+    wrapper = shallow(<ProjectModal setSelectedProj={mockFunc} selectedProj={'Mentor Match'} />)
   });
 
   it('should match the snapshot', () => {

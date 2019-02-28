@@ -4,6 +4,7 @@ exports[`ProjectModal should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ProjectModal
+    selectedProj="Mentor Match"
     setSelectedProj={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -29,7 +30,9 @@ ShallowWrapper {
           <div
             className="title-container"
           >
-            <h1 />
+            <h1>
+              Mentor Match
+            </h1>
           </div>
           <button
             className="exit-btn"
@@ -41,8 +44,12 @@ ShallowWrapper {
         <img
           alt="screenshot of project"
           className="modal-screenshot"
-          src="undefined"
+          src="mentor-match-screenshot.png"
         />
+        <p>
+          Tech Stack: 
+          React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
+        </p>
       </div>,
       "className": "project-modal-outer",
     },
@@ -59,7 +66,9 @@ ShallowWrapper {
             <div
               className="title-container"
             >
-              <h1 />
+              <h1>
+                Mentor Match
+              </h1>
             </div>
             <button
               className="exit-btn"
@@ -71,8 +80,12 @@ ShallowWrapper {
           <img
             alt="screenshot of project"
             className="modal-screenshot"
-            src="undefined"
+            src="mentor-match-screenshot.png"
           />,
+          <p>
+            Tech Stack: 
+            React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
+          </p>,
         ],
         "className": "project-modal-container",
       },
@@ -87,7 +100,9 @@ ShallowWrapper {
               <div
                 className="title-container"
               >
-                <h1 />
+                <h1>
+                  Mentor Match
+                </h1>
               </div>,
               <button
                 className="exit-btn"
@@ -105,7 +120,9 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <h1 />,
+                "children": <h1>
+                  Mentor Match
+                </h1>,
                 "className": "title-container",
               },
               "ref": null,
@@ -114,10 +131,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": undefined,
+                  "children": "Mentor Match",
                 },
                 "ref": null,
-                "rendered": null,
+                "rendered": "Mentor Match",
                 "type": "h1",
               },
               "type": "div",
@@ -145,11 +162,28 @@ ShallowWrapper {
           "props": Object {
             "alt": "screenshot of project",
             "className": "modal-screenshot",
-            "src": "undefined",
+            "src": "mentor-match-screenshot.png",
           },
           "ref": null,
           "rendered": null,
           "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Tech Stack: ",
+              "React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Tech Stack: ",
+            "React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)",
+          ],
+          "type": "p",
         },
       ],
       "type": "div",
@@ -171,7 +205,9 @@ ShallowWrapper {
             <div
               className="title-container"
             >
-              <h1 />
+              <h1>
+                Mentor Match
+              </h1>
             </div>
             <button
               className="exit-btn"
@@ -183,8 +219,12 @@ ShallowWrapper {
           <img
             alt="screenshot of project"
             className="modal-screenshot"
-            src="undefined"
+            src="mentor-match-screenshot.png"
           />
+          <p>
+            Tech Stack: 
+            React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
+          </p>
         </div>,
         "className": "project-modal-outer",
       },
@@ -201,7 +241,9 @@ ShallowWrapper {
               <div
                 className="title-container"
               >
-                <h1 />
+                <h1>
+                  Mentor Match
+                </h1>
               </div>
               <button
                 className="exit-btn"
@@ -213,8 +255,12 @@ ShallowWrapper {
             <img
               alt="screenshot of project"
               className="modal-screenshot"
-              src="undefined"
+              src="mentor-match-screenshot.png"
             />,
+            <p>
+              Tech Stack: 
+              React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
+            </p>,
           ],
           "className": "project-modal-container",
         },
@@ -229,7 +275,9 @@ ShallowWrapper {
                 <div
                   className="title-container"
                 >
-                  <h1 />
+                  <h1>
+                    Mentor Match
+                  </h1>
                 </div>,
                 <button
                   className="exit-btn"
@@ -247,7 +295,9 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <h1 />,
+                  "children": <h1>
+                    Mentor Match
+                  </h1>,
                   "className": "title-container",
                 },
                 "ref": null,
@@ -256,10 +306,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": undefined,
+                    "children": "Mentor Match",
                   },
                   "ref": null,
-                  "rendered": null,
+                  "rendered": "Mentor Match",
                   "type": "h1",
                 },
                 "type": "div",
@@ -287,11 +337,28 @@ ShallowWrapper {
             "props": Object {
               "alt": "screenshot of project",
               "className": "modal-screenshot",
-              "src": "undefined",
+              "src": "mentor-match-screenshot.png",
             },
             "ref": null,
             "rendered": null,
             "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Tech Stack: ",
+                "React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Tech Stack: ",
+              "React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)",
+            ],
+            "type": "p",
           },
         ],
         "type": "div",
