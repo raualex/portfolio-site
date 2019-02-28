@@ -64,7 +64,9 @@
   background-color: #fff;
   border: solid 2px #000;
   position: relative;
+  margin: auto;
   top: -2%;
+  width: 80%;
 }
 
 .modal-detail-header {
