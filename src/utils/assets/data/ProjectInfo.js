@@ -7,7 +7,7 @@ const ProjectInfo = {
   },
   'EBM Database': { 
     techStack: 'React.js, Redux, Redux-thunk, CSS3, Node.js, PostgreSQL, AJAX (ES7)',
-    testing: 'Enzyme/Jest - Front-End, Mocah/Chai - Back-End',
+    testing: 'Enzyme/Jest - Front-End, Mocha/Chai - Back-End',
     synopsis: 'This app is currently in progress.  I made a dataset of EBM bands and album information and seeded a PostgreSQL database with it using Node.js.',
     githubLink: 'https://github.com/raualex/EBMapp'
   },
