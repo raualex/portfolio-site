@@ -46,10 +46,36 @@ ShallowWrapper {
           className="modal-screenshot"
           src="mentor-match-screenshot.png"
         />
-        <p>
-          Tech Stack: 
-          React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
-        </p>
+        <div
+          className="project-details-container"
+        >
+          <p>
+            <span
+              className="modal-detail-header"
+            >
+              Tech Stack: 
+            </span>
+            React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
+          </p>
+          <p>
+            <span
+              className="modal-detail-header"
+            >
+              Testing: 
+            </span>
+            Enzyme/Jest - Front-End, RSpec - Back-End, TravisCI - Continuous Integration
+          </p>
+          <a
+            href="https://github.com/raualex/mentor_match_frontend"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            See the code on GitHub!
+          </a>
+          <p>
+            This app was built for the Turing School to use to match alumni mentors to current students to help them through the curriculum.
+          </p>
+        </div>
       </div>,
       "className": "project-modal-outer",
     },
@@ -82,10 +108,36 @@ ShallowWrapper {
             className="modal-screenshot"
             src="mentor-match-screenshot.png"
           />,
-          <p>
-            Tech Stack: 
-            React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
-          </p>,
+          <div
+            className="project-details-container"
+          >
+            <p>
+              <span
+                className="modal-detail-header"
+              >
+                Tech Stack: 
+              </span>
+              React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
+            </p>
+            <p>
+              <span
+                className="modal-detail-header"
+              >
+                Testing: 
+              </span>
+              Enzyme/Jest - Front-End, RSpec - Back-End, TravisCI - Continuous Integration
+            </p>
+            <a
+              href="https://github.com/raualex/mentor_match_frontend"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              See the code on GitHub!
+            </a>
+            <p>
+              This app was built for the Turing School to use to match alumni mentors to current students to help them through the curriculum.
+            </p>
+          </div>,
         ],
         "className": "project-modal-container",
       },
@@ -174,16 +226,128 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "Tech Stack: ",
-              "React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)",
+              <p>
+                <span
+                  className="modal-detail-header"
+                >
+                  Tech Stack: 
+                </span>
+                React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
+              </p>,
+              <p>
+                <span
+                  className="modal-detail-header"
+                >
+                  Testing: 
+                </span>
+                Enzyme/Jest - Front-End, RSpec - Back-End, TravisCI - Continuous Integration
+              </p>,
+              <a
+                href="https://github.com/raualex/mentor_match_frontend"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                See the code on GitHub!
+              </a>,
+              <p>
+                This app was built for the Turing School to use to match alumni mentors to current students to help them through the curriculum.
+              </p>,
             ],
+            "className": "project-details-container",
           },
           "ref": null,
           "rendered": Array [
-            "Tech Stack: ",
-            "React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="modal-detail-header"
+                  >
+                    Tech Stack: 
+                  </span>,
+                  "React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Tech Stack: ",
+                    "className": "modal-detail-header",
+                  },
+                  "ref": null,
+                  "rendered": "Tech Stack: ",
+                  "type": "span",
+                },
+                "React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)",
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="modal-detail-header"
+                  >
+                    Testing: 
+                  </span>,
+                  "Enzyme/Jest - Front-End, RSpec - Back-End, TravisCI - Continuous Integration",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Testing: ",
+                    "className": "modal-detail-header",
+                  },
+                  "ref": null,
+                  "rendered": "Testing: ",
+                  "type": "span",
+                },
+                "Enzyme/Jest - Front-End, RSpec - Back-End, TravisCI - Continuous Integration",
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "See the code on GitHub!",
+                "href": "https://github.com/raualex/mentor_match_frontend",
+                "rel": "noopener noreferrer",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": "See the code on GitHub!",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "This app was built for the Turing School to use to match alumni mentors to current students to help them through the curriculum.",
+              },
+              "ref": null,
+              "rendered": "This app was built for the Turing School to use to match alumni mentors to current students to help them through the curriculum.",
+              "type": "p",
+            },
           ],
-          "type": "p",
+          "type": "div",
         },
       ],
       "type": "div",
@@ -221,10 +385,36 @@ ShallowWrapper {
             className="modal-screenshot"
             src="mentor-match-screenshot.png"
           />
-          <p>
-            Tech Stack: 
-            React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
-          </p>
+          <div
+            className="project-details-container"
+          >
+            <p>
+              <span
+                className="modal-detail-header"
+              >
+                Tech Stack: 
+              </span>
+              React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
+            </p>
+            <p>
+              <span
+                className="modal-detail-header"
+              >
+                Testing: 
+              </span>
+              Enzyme/Jest - Front-End, RSpec - Back-End, TravisCI - Continuous Integration
+            </p>
+            <a
+              href="https://github.com/raualex/mentor_match_frontend"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              See the code on GitHub!
+            </a>
+            <p>
+              This app was built for the Turing School to use to match alumni mentors to current students to help them through the curriculum.
+            </p>
+          </div>
         </div>,
         "className": "project-modal-outer",
       },
@@ -257,10 +447,36 @@ ShallowWrapper {
               className="modal-screenshot"
               src="mentor-match-screenshot.png"
             />,
-            <p>
-              Tech Stack: 
-              React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
-            </p>,
+            <div
+              className="project-details-container"
+            >
+              <p>
+                <span
+                  className="modal-detail-header"
+                >
+                  Tech Stack: 
+                </span>
+                React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
+              </p>
+              <p>
+                <span
+                  className="modal-detail-header"
+                >
+                  Testing: 
+                </span>
+                Enzyme/Jest - Front-End, RSpec - Back-End, TravisCI - Continuous Integration
+              </p>
+              <a
+                href="https://github.com/raualex/mentor_match_frontend"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                See the code on GitHub!
+              </a>
+              <p>
+                This app was built for the Turing School to use to match alumni mentors to current students to help them through the curriculum.
+              </p>
+            </div>,
           ],
           "className": "project-modal-container",
         },
@@ -349,16 +565,128 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                "Tech Stack: ",
-                "React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)",
+                <p>
+                  <span
+                    className="modal-detail-header"
+                  >
+                    Tech Stack: 
+                  </span>
+                  React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)
+                </p>,
+                <p>
+                  <span
+                    className="modal-detail-header"
+                  >
+                    Testing: 
+                  </span>
+                  Enzyme/Jest - Front-End, RSpec - Back-End, TravisCI - Continuous Integration
+                </p>,
+                <a
+                  href="https://github.com/raualex/mentor_match_frontend"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  See the code on GitHub!
+                </a>,
+                <p>
+                  This app was built for the Turing School to use to match alumni mentors to current students to help them through the curriculum.
+                </p>,
               ],
+              "className": "project-details-container",
             },
             "ref": null,
             "rendered": Array [
-              "Tech Stack: ",
-              "React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span
+                      className="modal-detail-header"
+                    >
+                      Tech Stack: 
+                    </span>,
+                    "React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Tech Stack: ",
+                      "className": "modal-detail-header",
+                    },
+                    "ref": null,
+                    "rendered": "Tech Stack: ",
+                    "type": "span",
+                  },
+                  "React.js, Redux, Redux-thunk, CSS3, Ruby, PostgreSQL, AJAX (ES7)",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span
+                      className="modal-detail-header"
+                    >
+                      Testing: 
+                    </span>,
+                    "Enzyme/Jest - Front-End, RSpec - Back-End, TravisCI - Continuous Integration",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Testing: ",
+                      "className": "modal-detail-header",
+                    },
+                    "ref": null,
+                    "rendered": "Testing: ",
+                    "type": "span",
+                  },
+                  "Enzyme/Jest - Front-End, RSpec - Back-End, TravisCI - Continuous Integration",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "See the code on GitHub!",
+                  "href": "https://github.com/raualex/mentor_match_frontend",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": "See the code on GitHub!",
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "This app was built for the Turing School to use to match alumni mentors to current students to help them through the curriculum.",
+                },
+                "ref": null,
+                "rendered": "This app was built for the Turing School to use to match alumni mentors to current students to help them through the curriculum.",
+                "type": "p",
+              },
             ],
-            "type": "p",
+            "type": "div",
           },
         ],
         "type": "div",

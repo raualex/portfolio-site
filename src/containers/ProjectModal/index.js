@@ -35,7 +35,16 @@ export class ProjectModal extends Component {
             alt='screenshot of project'
             className='modal-screenshot' 
           />
-          <p>Tech Stack: {ProjectInfo[selectedProj].techStack}</p>
+          <div className='project-details-container'>
+            <p><span className='modal-detail-header'>Tech Stack: </span>{ProjectInfo[selectedProj].techStack}</p>
+            <p><span className='modal-detail-header'>Testing: </span>{ProjectInfo[selectedProj].testing}</p>
+            <a 
+              href={ProjectInfo[selectedProj].githubLink}
+              target='_blank'
+              rel='noopener noreferrer'
+            >See the code on GitHub!</a>
+            <p>{ProjectInfo[selectedProj].synopsis}</p>
+          </div>
         </div>
       </div>
     )
