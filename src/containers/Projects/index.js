@@ -7,7 +7,6 @@ import swapibox from '../../utils/assets/screenshots/swapibox-screenshot.png';
 import gametime from '../../utils/assets/screenshots/gametime-screenshot.jpg';
 import { connect } from 'react-redux';
 import { selectProject } from '../../actions/selection-actions';
-import ProjectModal from '../ProjectModal';
 
 export class Projects extends Component {
   // constructor(props) {

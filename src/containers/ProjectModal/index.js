@@ -3,6 +3,7 @@ import './ProjectModal.css';
 import { connect } from 'react-redux';
 import { selectProject } from '../../actions/selection-actions';
 import projectPics from '../../utils/assets/data/ModalPics.js';
+import ProjectInfo from '../../utils/assets/data/ProjectInfo.js';
 
 export class ProjectModal extends Component {
   // constructor() {
@@ -34,6 +35,7 @@ export class ProjectModal extends Component {
             alt='screenshot of project'
             className='modal-screenshot' 
           />
+          <p>Tech Stack: {ProjectInfo[selectedProj].techStack}</p>
         </div>
       </div>
     )
