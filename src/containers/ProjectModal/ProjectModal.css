@@ -6,8 +6,8 @@
   left: 0;
   width: 100%;
 
-  -webkit-animation: fadeIn 20s;
-  animation: fadeIn 20s;
+  -webkit-animation: fadeIn .2s;
+  animation: fadeIn .2s;
 }
 
 .project-modal-container {
