@@ -11,8 +11,11 @@
 }
 
 .blur {
+  -webkit-animation: filter-animation 2s 1;
+  /* -webkit-filter: opacity(0.25);
   filter:opacity(0.25);
-  filter:blur(5px);
+  -webkit-filter: blur(5px);
+  filter:blur(5px); */
 }
 
 .profile-pic {
@@ -48,4 +51,18 @@
 .active-item {
   border-bottom: solid 2px #000;
   border-top: solid 2px #000;
+}
+
+@-webkit-keyframes filter-animation {
+  0% {
+    -webkit-filter: opacity(0) blur(0px);
+  }
+  
+  50% {
+    -webkit-filter: opacity(0.125) blur(2.5px);
+  }
+  
+  100% {
+    -webkit-filter: opacity(0.25) blur(5px);
+  }
 }
