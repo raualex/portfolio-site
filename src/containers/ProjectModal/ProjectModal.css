@@ -77,16 +77,6 @@
   font-weight: 700;
 }
 
-@-webkit-keyframes fadeIn {
-  from {
-    background: rgba(211,211,211,0);
-  }
-
-  to {
-    background: rgba(211,211,211,0.75);
-  }
-}
-
 @keyframes fadeIn {
   0% {
     background: rgba(211,211,211,0)
