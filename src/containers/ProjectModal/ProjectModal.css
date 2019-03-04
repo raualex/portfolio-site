@@ -5,17 +5,21 @@
   height: 100%;
   left: 0;
   width: 100%;
+
+  -webkit-animation: fadeIn .2s;
+  animation: fadeIn .2s;
 }
 
 .project-modal-container {
+  animation: 0.20s ease-out 0s 1 slideInFromTop;
   background-color: #fff;
   border: solid 2px #000;
   box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.15);
   position: fixed;
+  bottom: 10%;
   left: 25%;
   right: 30%;
   top: 10%;
-  bottom: 10%;
   width: 800px;
 }
 
@@ -71,4 +75,37 @@
 
 .modal-detail-header {
   font-weight: 700;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    background: rgba(211,211,211,0);
+  }
+
+  to {
+    background: rgba(211,211,211,0.75);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    background: rgba(211,211,211,0)
+  }
+  
+  50% {
+    background: rgba(211,211,211,0.375);
+  }
+  
+  100% {
+    background: rgba(211,211,211,0.75);
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
