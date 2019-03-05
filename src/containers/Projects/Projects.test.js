@@ -7,7 +7,7 @@ describe('Projects', () => {
   let mockFunc = jest.fn();
 
   beforeEach(() => {
-    wrapper = shallow(<Projects setSelectedProj={mockFunc} />)
+    wrapper = shallow(<Projects setSelectedProj={mockFunc} selectedNav={'Projects'} />)
   });
 
   it('should match the snapshot if no project is selected', () => {
@@ -15,7 +15,7 @@ describe('Projects', () => {
   });
 
   it('should match the snapshot if a project is selected', () => {
-    wrapper = shallow(<Projects selectedProj={'Bio'} />)
+    wrapper = shallow(<Projects selectedProj={'Bio'} selectedNav={'Projects'}  />)
     expect(wrapper).toMatchSnapshot()
   });
 

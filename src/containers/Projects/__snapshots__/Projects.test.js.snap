@@ -4,6 +4,7 @@ exports[`Projects should match the snapshot if a project is selected 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Projects
+    selectedNav="Projects"
     selectedProj="Bio"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -970,6 +971,7 @@ exports[`Projects should match the snapshot if no project is selected 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Projects
+    selectedNav="Projects"
     setSelectedProj={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {

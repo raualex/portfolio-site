@@ -2,21 +2,21 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from '../Header';
 import Sidebar from '../Sidebar';
-import LandingPage from '../../components/LandingPage';
-import Bio from '../../components/Bio';
-import Skills from '../../components/Skills';
+import LandingPage from '../LandingPage';
+import Bio from '../Bio';
+import Skills from '../Skills';
 import Projects from '../Projects';
-import Contact from '../../components/Contact';
+import Contact from '../Contact';
 import ProjectModal from '../ProjectModal';
 import { withRouter, Switch, Route } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 export class App extends Component {
   render() {
-    let { selectedProj } = this.props
+    let { selectedProj, selectedNav } = this.props
     let modal;
     
-    if (selectedProj !== '') {
+    if (selectedProj !== '' && selectedNav === 'Projects') {
       modal = <ProjectModal />
     }
 
@@ -40,6 +40,6 @@ export class App extends Component {
 export const mapStateToProps = (state) => ({
   selectedNav: state.selectedNav,
   selectedProj: state.selectedProj
-})
+});
 
 export default withRouter(connect(mapStateToProps)(App));

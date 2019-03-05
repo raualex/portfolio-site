@@ -1,15 +1,15 @@
 import React from 'react';
-import Skills from './';
+import { LandingPage, mapStateToProps, mapDispatchToProps } from './';
 import { shallow } from 'enzyme';
 
-describe('Skills', () => {
+describe('LandingPage', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<Skills />)
+    wrapper = shallow(<LandingPage selectedNav={''} />)
   });
 
   it('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot()
   });
-})
+});
