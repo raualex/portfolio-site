@@ -19,7 +19,7 @@ export class LandingPage extends Component {
 
   render() {
     return(
-      <div>
+      <div className='lp-container'>
         <h1>Landing Page!</h1>
       </div>
     )
