@@ -6,12 +6,19 @@ import ebmdb from '../../utils/assets/screenshots/ebm-database.png';
 import swapibox from '../../utils/assets/screenshots/swapibox-screenshot.png';
 import gametime from '../../utils/assets/screenshots/gametime-screenshot.jpg';
 import { connect } from 'react-redux';
-import { selectProject } from '../../actions/selection-actions';
+import { selectProject, selectNavBtn } from '../../actions/selection-actions';
 
 export class Projects extends Component {
-  // constructor(props) {
-  //   super(props);
-  // }
+
+  componentDidMount() {
+    let { selectedNav, setSelectedNav } = this.props
+
+    if (selectedNav === 'Projects') {
+      return
+    } else {
+      setSelectedNav('Projects')
+    }
+  }
 
   setProject = (project) => {
     let { setSelectedProj } = this.props
@@ -90,11 +97,13 @@ export class Projects extends Component {
 }
 
 export const mapStateToProps = (state) => ({
-  selectedProj: state.selectedProj
+  selectedProj: state.selectedProj,
+  selectedNav: state.selectedNav
 });
 
 export const mapDispatchToProps = (dispatch) => ({
-  setSelectedProj: (proj) => dispatch(selectProject(proj))
+  setSelectedProj: (proj) => dispatch(selectProject(proj)),
+  setSelectedNav: (nav) => dispatch(selectNavBtn(nav))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Projects);
