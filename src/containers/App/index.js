@@ -13,10 +13,10 @@ import { connect } from 'react-redux';
 
 export class App extends Component {
   render() {
-    let { selectedProj } = this.props
+    let { selectedProj, selectedNav } = this.props
     let modal;
     
-    if (selectedProj !== '') {
+    if (selectedProj !== '' && selectedNav === 'Projects') {
       modal = <ProjectModal />
     }
 
@@ -40,6 +40,6 @@ export class App extends Component {
 export const mapStateToProps = (state) => ({
   selectedNav: state.selectedNav,
   selectedProj: state.selectedProj
-})
+});
 
 export default withRouter(connect(mapStateToProps)(App));

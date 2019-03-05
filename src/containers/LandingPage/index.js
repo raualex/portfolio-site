@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 import './LandingPage.css';
 import { connect } from 'react-redux';
-import { selectNavBtn } from '../../actions/selection-actions';
+import { selectProject, selectNavBtn } from '../../actions/selection-actions';
 
 export class LandingPage extends Component {
 
 
   componentDidMount() {
-    let { selectedNav, setSelectedNav } = this.props
+    let { selectedNav, setSelectedNav, setSelectedProj } = this.props
 
     if ( selectedNav === '' ) {
       return
     } else {
       setSelectedNav('')
+      setSelectedProj('')
     }
   }
 
@@ -30,6 +31,7 @@ export const mapStateToProps = (state) => ({
 });
 
 export const mapDispatchToProps = (dispatch) => ({
+  setSelectedProj: (proj) => dispatch(selectProject(proj)),
   setSelectedNav: (nav) => dispatch(selectNavBtn(nav))
 });
 

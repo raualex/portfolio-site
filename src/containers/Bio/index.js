@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import './Bio.css';
 import { connect } from 'react-redux';
-import { selectNavBtn } from '../../actions/selection-actions';
+import { selectProject, selectNavBtn } from '../../actions/selection-actions';
 
 export class Bio extends Component {
 
   componentDidMount() {
-    let { selectedNav, setSelectedNav } = this.props
+    let { selectedNav, setSelectedNav, setSelectedProj } = this.props
 
     if (selectedNav === 'Bio') {
       return
     } else {
       setSelectedNav('Bio')
+      setSelectedProj('')
     }
   }
 
@@ -29,6 +30,7 @@ export const mapStateToProps = (state) => ({
 });
 
 export const mapDispatchToProps = (dispatch) => ({
+  setSelectedProj: (proj) => dispatch(selectProject(proj)),
   setSelectedNav: (nav) => dispatch(selectNavBtn(nav))
 });
 

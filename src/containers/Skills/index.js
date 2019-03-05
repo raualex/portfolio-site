@@ -22,17 +22,18 @@ import vue from '../../utils/assets/logos/vue-logo.svg';
 import angular from '../../utils/assets/logos/angular-logo.svg';
 import cucumber from '../../utils/assets/logos/cucumber-logo.png';
 import { connect } from 'react-redux';
-import { selectNavBtn } from '../../actions/selection-actions';
+import { selectProject, selectNavBtn } from '../../actions/selection-actions';
 
 export class Skills extends Component {
 
   componentDidMount() {
-    let { selectedNav, setSelectedNav } = this.props
+    let { selectedNav, setSelectedNav, setSelectedProj } = this.props
 
     if (selectedNav === 'Skills') {
       return
     } else {
       setSelectedNav('Skills')
+      setSelectedProj('')
     }
   }
 
@@ -87,6 +88,7 @@ export const mapStateToProps = (state) => ({
 });
 
 export const mapDispatchToProps = (dispatch) => ({
+  setSelectedProj: (proj) => dispatch(selectProject(proj)),
   setSelectedNav: (nav) => dispatch(selectNavBtn(nav))
 });
 

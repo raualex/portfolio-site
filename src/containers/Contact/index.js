@@ -6,17 +6,18 @@ import github from '../../utils/assets/icons/002-github.svg';
 import linkedin from '../../utils/assets/icons/linkedin-sign.svg';
 import email from '../../utils/assets/icons/003-close-envelope.svg';
 import { connect } from 'react-redux';
-import { selectNavBtn } from '../../actions/selection-actions';
+import { selectProject, selectNavBtn } from '../../actions/selection-actions';
 
 export class Contact extends Component {
   
   componentDidMount() {
-    let { selectedNav, setSelectedNav } = this.props
+    let { selectedNav, setSelectedNav, setSelectedProj } = this.props
 
     if (selectedNav === 'Contact') {
       return
     } else {
       setSelectedNav('Contact')
+      setSelectedProj('')
     }
   }
 
@@ -72,6 +73,7 @@ export const mapStateToProps = (state) => ({
 });
 
 export const mapDispatchToProps = (dispatch) => ({
+  setSelectedProj: (proj) => dispatch(selectProject(proj)),
   setSelectedNav: (nav) => dispatch(selectNavBtn(nav))
 });
 

@@ -48,7 +48,7 @@ ShallowWrapper {
             path="/contact"
           />
         </Switch>,
-        <Connect(ProjectModal) />,
+        undefined,
       ],
       "className": "App",
     },
@@ -175,15 +175,7 @@ ShallowWrapper {
         ],
         "type": [Function],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
+      undefined,
     ],
     "type": "div",
   },
@@ -223,7 +215,7 @@ ShallowWrapper {
               path="/contact"
             />
           </Switch>,
-          <Connect(ProjectModal) />,
+          undefined,
         ],
         "className": "App",
       },
@@ -350,15 +342,7 @@ ShallowWrapper {
           ],
           "type": [Function],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        undefined,
       ],
       "type": "div",
     },
