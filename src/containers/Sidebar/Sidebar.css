@@ -30,6 +30,7 @@
   display: flex;
   flex-direction: column;
   padding: 0;
+  width: 100%;
 }
 
 .nav-item {
@@ -37,6 +38,15 @@
   padding-bottom: 32px;
   padding-top: 32px;
   text-decoration: none;
+
+  background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+  #333 50%,
+  #333);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
 }
 
 .nav-item:hover {
@@ -51,4 +61,7 @@
 .active-item {
   border-bottom: solid 2px #000;
   border-top: solid 2px #000;
+
+  background-position: 0 0;
+  color:#fff;
 }

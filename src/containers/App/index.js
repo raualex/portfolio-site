@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from '../Header';
 import Sidebar from '../Sidebar';
+import LandingPage from '../../components/LandingPage';
 import Bio from '../../components/Bio';
 import Skills from '../../components/Skills';
 import Projects from '../Projects';
@@ -24,6 +25,7 @@ export class App extends Component {
         <Header />
         <Sidebar />
         <Switch>
+          <Route exact path='/' component={LandingPage} />
           <Route exact path='/bio' component={Bio} />
           <Route exact path='/skills' component={Skills} />
           <Route exact path='/projects' component={Projects} />

@@ -1,12 +1,12 @@
 import React from 'react';
-import Bio from './';
+import LandingPage from './';
 import { shallow } from 'enzyme';
 
-describe('Bio', () => {
+describe('LandingPage', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<Bio />)
+    wrapper = shallow(<LandingPage />)
   });
 
   it('should match the snapshot', () => {
