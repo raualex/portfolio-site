@@ -1,12 +1,12 @@
 import React from 'react';
-import Contact from './';
+import { Contact, mapStateToProps, mapDispatchToProps } from './';
 import { shallow } from 'enzyme';
 
 describe('Contact', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<Contact />)
+    wrapper = shallow(<Contact selectedNav={'Contact'} />)
   });
 
   it('should match the snapshot', () => {
