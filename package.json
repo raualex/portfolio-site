@@ -126,8 +126,8 @@
       "node"
     ],
     "watchPlugins": [
-      "/Users/alexanderrau/Desktop/FunProjects/portfolio-site/node_modules/jest-watch-typeahead/filename.js",
-      "/Users/alexanderrau/Desktop/FunProjects/portfolio-site/node_modules/jest-watch-typeahead/testname.js"
+      "node_modules/jest-watch-typeahead/filename.js",
+      "node_modules/jest-watch-typeahead/testname.js"
     ]
   },
   "babel": {
