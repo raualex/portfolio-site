@@ -25,42 +25,6 @@ ShallowWrapper {
           Welcome to my Portfolio Site!
         </h1>,
         <p>
-          This site was built using:
-        </p>,
-        <img
-          alt="react logo"
-          className="landing-logos"
-          src="react-logo.png"
-        />,
-        <img
-          alt="react router logo"
-          className="landing-logos"
-          src="react-router-logo.png"
-        />,
-        <img
-          alt="redux logo"
-          className="landing-logos"
-          src="redux-logo.png"
-        />,
-        <img
-          alt="css logo"
-          className="landing-logos"
-          src="css3_logo.svg"
-        />,
-        <p>
-          This site was tested using:
-        </p>,
-        <img
-          alt="enzyme and jest logos"
-          className="landing-logos"
-          src="enzyme-jest.png"
-        />,
-        <img
-          alt="travis ci logo"
-          className="landing-logos"
-          src="travisCI-logo.png"
-        />,
-        <p>
           Feel free to explore and check out my projects!
         </p>,
         <a
@@ -71,6 +35,50 @@ ShallowWrapper {
         >
           Click here to see the code for this site!
         </a>,
+        <p>
+          This site was built using:
+        </p>,
+        <div
+          className="landing-logo-container"
+        >
+          <img
+            alt="react logo"
+            className="landing-logos-react"
+            src="react-logo.png"
+          />
+          <img
+            alt="react router logo"
+            className="landing-logos-react-router"
+            src="react-router-logo.png"
+          />
+          <img
+            alt="redux logo"
+            className="landing-logos-redux"
+            src="redux-logo.png"
+          />
+          <img
+            alt="css logo"
+            className="landing-logos-css"
+            src="css3_logo.svg"
+          />
+        </div>,
+        <p>
+          This site was tested using:
+        </p>,
+        <div
+          className="testing-logo-container"
+        >
+          <img
+            alt="enzyme and jest logos"
+            className="testing-logos"
+            src="enzyme-jest.png"
+          />
+          <img
+            alt="travis ci logo"
+            className="testing-logos"
+            src="travisCI-logo.png"
+          />
+        </div>,
       ],
       "className": "lp-container",
     },
@@ -86,106 +94,6 @@ ShallowWrapper {
         "ref": null,
         "rendered": "Welcome to my Portfolio Site!",
         "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "This site was built using:",
-        },
-        "ref": null,
-        "rendered": "This site was built using:",
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "alt": "react logo",
-          "className": "landing-logos",
-          "src": "react-logo.png",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "img",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "alt": "react router logo",
-          "className": "landing-logos",
-          "src": "react-router-logo.png",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "img",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "alt": "redux logo",
-          "className": "landing-logos",
-          "src": "redux-logo.png",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "img",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "alt": "css logo",
-          "className": "landing-logos",
-          "src": "css3_logo.svg",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "img",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "This site was tested using:",
-        },
-        "ref": null,
-        "rendered": "This site was tested using:",
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "alt": "enzyme and jest logos",
-          "className": "landing-logos",
-          "src": "enzyme-jest.png",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "img",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "alt": "travis ci logo",
-          "className": "landing-logos",
-          "src": "travisCI-logo.png",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "img",
       },
       Object {
         "instance": null,
@@ -213,6 +121,164 @@ ShallowWrapper {
         "rendered": "Click here to see the code for this site!",
         "type": "a",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "This site was built using:",
+        },
+        "ref": null,
+        "rendered": "This site was built using:",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="react logo"
+              className="landing-logos-react"
+              src="react-logo.png"
+            />,
+            <img
+              alt="react router logo"
+              className="landing-logos-react-router"
+              src="react-router-logo.png"
+            />,
+            <img
+              alt="redux logo"
+              className="landing-logos-redux"
+              src="redux-logo.png"
+            />,
+            <img
+              alt="css logo"
+              className="landing-logos-css"
+              src="css3_logo.svg"
+            />,
+          ],
+          "className": "landing-logo-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "react logo",
+              "className": "landing-logos-react",
+              "src": "react-logo.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "react router logo",
+              "className": "landing-logos-react-router",
+              "src": "react-router-logo.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "redux logo",
+              "className": "landing-logos-redux",
+              "src": "redux-logo.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "css logo",
+              "className": "landing-logos-css",
+              "src": "css3_logo.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "This site was tested using:",
+        },
+        "ref": null,
+        "rendered": "This site was tested using:",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="enzyme and jest logos"
+              className="testing-logos"
+              src="enzyme-jest.png"
+            />,
+            <img
+              alt="travis ci logo"
+              className="testing-logos"
+              src="travisCI-logo.png"
+            />,
+          ],
+          "className": "testing-logo-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "enzyme and jest logos",
+              "className": "testing-logos",
+              "src": "enzyme-jest.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "travis ci logo",
+              "className": "testing-logos",
+              "src": "travisCI-logo.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": "div",
+      },
     ],
     "type": "div",
   },
@@ -227,42 +293,6 @@ ShallowWrapper {
             Welcome to my Portfolio Site!
           </h1>,
           <p>
-            This site was built using:
-          </p>,
-          <img
-            alt="react logo"
-            className="landing-logos"
-            src="react-logo.png"
-          />,
-          <img
-            alt="react router logo"
-            className="landing-logos"
-            src="react-router-logo.png"
-          />,
-          <img
-            alt="redux logo"
-            className="landing-logos"
-            src="redux-logo.png"
-          />,
-          <img
-            alt="css logo"
-            className="landing-logos"
-            src="css3_logo.svg"
-          />,
-          <p>
-            This site was tested using:
-          </p>,
-          <img
-            alt="enzyme and jest logos"
-            className="landing-logos"
-            src="enzyme-jest.png"
-          />,
-          <img
-            alt="travis ci logo"
-            className="landing-logos"
-            src="travisCI-logo.png"
-          />,
-          <p>
             Feel free to explore and check out my projects!
           </p>,
           <a
@@ -273,6 +303,50 @@ ShallowWrapper {
           >
             Click here to see the code for this site!
           </a>,
+          <p>
+            This site was built using:
+          </p>,
+          <div
+            className="landing-logo-container"
+          >
+            <img
+              alt="react logo"
+              className="landing-logos-react"
+              src="react-logo.png"
+            />
+            <img
+              alt="react router logo"
+              className="landing-logos-react-router"
+              src="react-router-logo.png"
+            />
+            <img
+              alt="redux logo"
+              className="landing-logos-redux"
+              src="redux-logo.png"
+            />
+            <img
+              alt="css logo"
+              className="landing-logos-css"
+              src="css3_logo.svg"
+            />
+          </div>,
+          <p>
+            This site was tested using:
+          </p>,
+          <div
+            className="testing-logo-container"
+          >
+            <img
+              alt="enzyme and jest logos"
+              className="testing-logos"
+              src="enzyme-jest.png"
+            />
+            <img
+              alt="travis ci logo"
+              className="testing-logos"
+              src="travisCI-logo.png"
+            />
+          </div>,
         ],
         "className": "lp-container",
       },
@@ -288,106 +362,6 @@ ShallowWrapper {
           "ref": null,
           "rendered": "Welcome to my Portfolio Site!",
           "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "This site was built using:",
-          },
-          "ref": null,
-          "rendered": "This site was built using:",
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "react logo",
-            "className": "landing-logos",
-            "src": "react-logo.png",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "react router logo",
-            "className": "landing-logos",
-            "src": "react-router-logo.png",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "redux logo",
-            "className": "landing-logos",
-            "src": "redux-logo.png",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "css logo",
-            "className": "landing-logos",
-            "src": "css3_logo.svg",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "This site was tested using:",
-          },
-          "ref": null,
-          "rendered": "This site was tested using:",
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "enzyme and jest logos",
-            "className": "landing-logos",
-            "src": "enzyme-jest.png",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "travis ci logo",
-            "className": "landing-logos",
-            "src": "travisCI-logo.png",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
         },
         Object {
           "instance": null,
@@ -414,6 +388,164 @@ ShallowWrapper {
           "ref": null,
           "rendered": "Click here to see the code for this site!",
           "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "This site was built using:",
+          },
+          "ref": null,
+          "rendered": "This site was built using:",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="react logo"
+                className="landing-logos-react"
+                src="react-logo.png"
+              />,
+              <img
+                alt="react router logo"
+                className="landing-logos-react-router"
+                src="react-router-logo.png"
+              />,
+              <img
+                alt="redux logo"
+                className="landing-logos-redux"
+                src="redux-logo.png"
+              />,
+              <img
+                alt="css logo"
+                className="landing-logos-css"
+                src="css3_logo.svg"
+              />,
+            ],
+            "className": "landing-logo-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "react logo",
+                "className": "landing-logos-react",
+                "src": "react-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "react router logo",
+                "className": "landing-logos-react-router",
+                "src": "react-router-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "redux logo",
+                "className": "landing-logos-redux",
+                "src": "redux-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "css logo",
+                "className": "landing-logos-css",
+                "src": "css3_logo.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "This site was tested using:",
+          },
+          "ref": null,
+          "rendered": "This site was tested using:",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="enzyme and jest logos"
+                className="testing-logos"
+                src="enzyme-jest.png"
+              />,
+              <img
+                alt="travis ci logo"
+                className="testing-logos"
+                src="travisCI-logo.png"
+              />,
+            ],
+            "className": "testing-logo-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "enzyme and jest logos",
+                "className": "testing-logos",
+                "src": "enzyme-jest.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "travis ci logo",
+                "className": "testing-logos",
+                "src": "travisCI-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",

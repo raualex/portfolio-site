@@ -4,3 +4,56 @@
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
+.landing-logo-container,
+.testing-logo-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.landing-logos-react {
+  height: 112px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 290px;
+}
+
+.landing-logos-react-router {
+  height: 110px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 5px;
+  width: 278px;
+}
+
+.landing-logos-redux {
+  height: 100px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+  width: 290px;
+}
+
+.landing-logos-css {
+  height: 178px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+  width: 290px;
+}
+
+.testing-logos {
+  height: 100px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+  width: 290px;
+}

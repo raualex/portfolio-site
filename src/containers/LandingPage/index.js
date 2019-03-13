@@ -27,14 +27,6 @@ export class LandingPage extends Component {
     return(
       <div className='lp-container'>
         <h1>Welcome to my Portfolio Site!</h1>
-        <p>This site was built using:</p>
-        <img src={react} alt='react logo' className='landing-logos' />
-        <img src={reactrouter} alt='react router logo' className='landing-logos' />
-        <img src={redux} alt='redux logo' className='landing-logos' />
-        <img src={css} alt='css logo' className='landing-logos' />
-        <p>This site was tested using:</p>
-        <img src={enzymejest} alt='enzyme and jest logos' className='landing-logos' />
-        <img src={travis} alt='travis ci logo' className='landing-logos' />
         <p>Feel free to explore and check out my projects!</p>
         <a
           href='https://github.com/raualex/portfolio-site'
@@ -42,6 +34,18 @@ export class LandingPage extends Component {
           rel='noopener noreferrer'
           className='portfolio-github-link'
         >Click here to see the code for this site!</a>
+        <p>This site was built using:</p>
+        <div className='landing-logo-container'>
+          <img src={react} alt='react logo' className='landing-logos-react' />
+          <img src={reactrouter} alt='react router logo' className='landing-logos-react-router' />
+          <img src={redux} alt='redux logo' className='landing-logos-redux' />
+          <img src={css} alt='css logo' className='landing-logos-css' />
+        </div>
+        <p>This site was tested using:</p>
+        <div className='testing-logo-container'>
+          <img src={enzymejest} alt='enzyme and jest logos' className='testing-logos' />
+          <img src={travis} alt='travis ci logo' className='testing-logos' />
+        </div>
       </div>
     )
   }
