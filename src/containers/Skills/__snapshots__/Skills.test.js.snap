@@ -35,6 +35,11 @@ ShallowWrapper {
             src="react-logo.png"
           />
           <img
+            alt="react router logo"
+            className="react-router-logo"
+            src="react-router-logo.png"
+          />
+          <img
             alt="redux logo"
             className="redux-logo"
             src="redux-logo.png"
@@ -185,6 +190,11 @@ ShallowWrapper {
               src="react-logo.png"
             />
             <img
+              alt="react router logo"
+              className="react-router-logo"
+              src="react-router-logo.png"
+            />
+            <img
               alt="redux logo"
               className="redux-logo"
               src="redux-logo.png"
@@ -333,6 +343,11 @@ ShallowWrapper {
                 src="react-logo.png"
               />,
               <img
+                alt="react router logo"
+                className="react-router-logo"
+                src="react-router-logo.png"
+              />,
+              <img
                 alt="redux logo"
                 className="redux-logo"
                 src="redux-logo.png"
@@ -371,6 +386,19 @@ ShallowWrapper {
                 "alt": "react logo",
                 "className": "react-logo",
                 "src": "react-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "react router logo",
+                "className": "react-router-logo",
+                "src": "react-router-logo.png",
               },
               "ref": null,
               "rendered": null,
@@ -862,6 +890,11 @@ ShallowWrapper {
               src="react-logo.png"
             />
             <img
+              alt="react router logo"
+              className="react-router-logo"
+              src="react-router-logo.png"
+            />
+            <img
               alt="redux logo"
               className="redux-logo"
               src="redux-logo.png"
@@ -1012,6 +1045,11 @@ ShallowWrapper {
                 src="react-logo.png"
               />
               <img
+                alt="react router logo"
+                className="react-router-logo"
+                src="react-router-logo.png"
+              />
+              <img
                 alt="redux logo"
                 className="redux-logo"
                 src="redux-logo.png"
@@ -1160,6 +1198,11 @@ ShallowWrapper {
                   src="react-logo.png"
                 />,
                 <img
+                  alt="react router logo"
+                  className="react-router-logo"
+                  src="react-router-logo.png"
+                />,
+                <img
                   alt="redux logo"
                   className="redux-logo"
                   src="redux-logo.png"
@@ -1198,6 +1241,19 @@ ShallowWrapper {
                   "alt": "react logo",
                   "className": "react-logo",
                   "src": "react-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "react router logo",
+                  "className": "react-router-logo",
+                  "src": "react-router-logo.png",
                 },
                 "ref": null,
                 "rendered": null,
