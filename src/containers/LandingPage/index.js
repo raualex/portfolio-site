@@ -27,13 +27,13 @@ export class LandingPage extends Component {
     return(
       <div className='lp-container'>
         <h1>Welcome to my Portfolio Site!</h1>
-        <p>Feel free to explore and check out my projects!</p>
+        <p>Feel free to explore and check out my projects</p>
         <a
           href='https://github.com/raualex/portfolio-site'
           target='_blank'
           rel='noopener noreferrer'
           className='portfolio-github-link'
-        >Click here to see the code for this site!</a>
+        >Click here to see the code for this site</a>
         <p>This site was built using:</p>
         <div className='landing-logo-container'>
           <img src={react} alt='react logo' className='landing-logos-react' />

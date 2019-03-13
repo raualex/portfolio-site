@@ -3,6 +3,8 @@
   grid-column-end: 6;
   grid-row-start: 2;
   grid-row-end: 3;
+  height: 460px;
+  overflow: auto;
 }
 
 .landing-logo-container,
@@ -19,7 +21,7 @@
   height: 112px;
   margin-left: 40px;
   margin-right: 40px;
-  width: 290px;
+  width: 260px;
 }
 
 .landing-logos-react-router {
@@ -28,7 +30,7 @@
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 5px;
-  width: 278px;
+  width: 264px;
 }
 
 .landing-logos-redux {
@@ -37,7 +39,7 @@
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 10px;
-  width: 290px;
+  width: 270px;
 }
 
 .landing-logos-css {
@@ -51,7 +53,7 @@
 
 .testing-logos {
   height: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 10px;

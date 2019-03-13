@@ -25,7 +25,7 @@ ShallowWrapper {
           Welcome to my Portfolio Site!
         </h1>,
         <p>
-          Feel free to explore and check out my projects!
+          Feel free to explore and check out my projects
         </p>,
         <a
           className="portfolio-github-link"
@@ -33,7 +33,7 @@ ShallowWrapper {
           rel="noopener noreferrer"
           target="_blank"
         >
-          Click here to see the code for this site!
+          Click here to see the code for this site
         </a>,
         <p>
           This site was built using:
@@ -100,10 +100,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Feel free to explore and check out my projects!",
+          "children": "Feel free to explore and check out my projects",
         },
         "ref": null,
-        "rendered": "Feel free to explore and check out my projects!",
+        "rendered": "Feel free to explore and check out my projects",
         "type": "p",
       },
       Object {
@@ -111,14 +111,14 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Click here to see the code for this site!",
+          "children": "Click here to see the code for this site",
           "className": "portfolio-github-link",
           "href": "https://github.com/raualex/portfolio-site",
           "rel": "noopener noreferrer",
           "target": "_blank",
         },
         "ref": null,
-        "rendered": "Click here to see the code for this site!",
+        "rendered": "Click here to see the code for this site",
         "type": "a",
       },
       Object {
@@ -293,7 +293,7 @@ ShallowWrapper {
             Welcome to my Portfolio Site!
           </h1>,
           <p>
-            Feel free to explore and check out my projects!
+            Feel free to explore and check out my projects
           </p>,
           <a
             className="portfolio-github-link"
@@ -301,7 +301,7 @@ ShallowWrapper {
             rel="noopener noreferrer"
             target="_blank"
           >
-            Click here to see the code for this site!
+            Click here to see the code for this site
           </a>,
           <p>
             This site was built using:
@@ -368,10 +368,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Feel free to explore and check out my projects!",
+            "children": "Feel free to explore and check out my projects",
           },
           "ref": null,
-          "rendered": "Feel free to explore and check out my projects!",
+          "rendered": "Feel free to explore and check out my projects",
           "type": "p",
         },
         Object {
@@ -379,14 +379,14 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Click here to see the code for this site!",
+            "children": "Click here to see the code for this site",
             "className": "portfolio-github-link",
             "href": "https://github.com/raualex/portfolio-site",
             "rel": "noopener noreferrer",
             "target": "_blank",
           },
           "ref": null,
-          "rendered": "Click here to see the code for this site!",
+          "rendered": "Click here to see the code for this site",
           "type": "a",
         },
         Object {
