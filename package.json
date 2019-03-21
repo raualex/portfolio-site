@@ -35,14 +35,5 @@
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.9.1",
     "gh-pages": "^2.0.1"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}",
-      "!src/index.js",
-      "!src/serviceWorker.js",
-      "!src/setupTests.js",
-      "!src/reducers/index.js"
-    ]
   }
 }
