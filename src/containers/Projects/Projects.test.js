@@ -10,12 +10,7 @@ describe('Projects', () => {
     wrapper = shallow(<Projects setSelectedProj={mockFunc} selectedNav={'Projects'} />)
   });
 
-  it('should match the snapshot if no project is selected', () => {
-    expect(wrapper).toMatchSnapshot()
-  });
-
-  it('should match the snapshot if a project is selected', () => {
-    wrapper = shallow(<Projects selectedProj={'Bio'} selectedNav={'Projects'}  />)
+  it('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot()
   });
 
@@ -28,13 +23,15 @@ describe('Projects', () => {
 });
 
 describe('mapStateToProps function', () => {
-  it('should return an object with the selected project', () => {
+  it('should return an object with the selected project and selected Navigation element', () => {
     const mockState = {
       selectedProj: 'Mentor Match',
+      selectedNav: 'Projects',
       somethingElse: 'w00t!'
     }
     const expected = {
-      selectedProj: 'Mentor Match'
+      selectedProj: 'Mentor Match',
+      selectedNav: 'Projects'
     }
     const mappedProps = mapStateToProps(mockState)
     expect(mappedProps).toEqual(expected)
@@ -51,6 +48,11 @@ describe('mapDispatchToProps function', () => {
 
   it('should call dispatch when setSelectedProj is called', () => {
     mappedProps.setSelectedProj()
+    expect(mockDispatch).toHaveBeenCalled()
+  });
+
+  it('should call dispatch when setSelectedNav is called', () => {
+    mappedProps.setSelectedNav()
     expect(mockDispatch).toHaveBeenCalled()
   });
 });

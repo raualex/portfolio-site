@@ -9,14 +9,20 @@ describe('App', () => {
     wrapper = shallow(<App />)
   });
 
-  it('should match the snapshot', () => {
+  it('should match the snapshot with no Project selected', () => {
+    wrapper = shallow(<App selectedProj={''} />)
+    expect(wrapper).toMatchSnapshot()
+  });
+
+  it('should match the snapshot if a Project is selected', () => {
+    wrapper = shallow(<App selectedProj={'Projects'} />)
     expect(wrapper).toMatchSnapshot()
   });
 });
 
 describe('mapStateToProps function', () => {
   
-  it('should return with selected Navigation Item', () => {
+  it('should return an object with selected Navigation Item', () => {
     const mockState = {
       selectedNav: 'Bio',
       somethingElse: "Not Bio"
