@@ -3,9 +3,6 @@ import './Header.css';
 import { connect } from 'react-redux';
 
 export class Header extends Component {
-  // constructor() {
-  //   super();
-  // }
 
   render() {
     let { selectedProj } = this.props

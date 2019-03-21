@@ -9,7 +9,7 @@
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
-  height: 460px;
+  height: 600px;
   justify-content: center;
   overflow: auto;
 }
@@ -25,7 +25,7 @@
   flex-direction: column;
   height: 550px;
   justify-content: flex-start;
-  margin: 0 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
   width: 280px;
 }
 

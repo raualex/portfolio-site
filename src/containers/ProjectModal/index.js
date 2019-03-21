@@ -6,9 +6,6 @@ import projectPics from '../../utils/assets/data/ModalPics.js';
 import ProjectInfo from '../../utils/assets/data/ProjectInfo.js';
 
 export class ProjectModal extends Component {
-  // constructor() {
-  //   super();
-  // }
 
   resetProject = () => {
     let { setSelectedProj } = this.props
