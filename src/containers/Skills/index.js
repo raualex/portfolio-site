@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Skills.css';
 import react from '../../utils/assets/logos/react-logo.png';
+import reactrouter from '../../utils/assets/logos/react-router-logo.png';
 import redux from '../../utils/assets/logos/redux-logo.png';
 import jshtmlcss from '../../utils/assets/logos/javascript-html-css-logos.png';
 import jquery from '../../utils/assets/logos/jquery-logo.png';
@@ -44,6 +45,7 @@ export class Skills extends Component {
           <div className='front-end-skills'>
             <h1>Front-End</h1>
             <img src={react} alt='react logo' className='react-logo' />
+            <img src={reactrouter} alt='react router logo' className='react-router-logo' />
             <img src={redux} alt='redux logo' className='redux-logo' />
             <img src={jshtmlcss} alt='javscript html and css logo' className='htmlcssjs-logos' />
             <img src={jquery} alt='j query logo' className='jquery-logo' />

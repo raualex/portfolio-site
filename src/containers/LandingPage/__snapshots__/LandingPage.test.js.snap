@@ -20,22 +20,266 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        Landing Page!
-      </h1>,
+      "children": Array [
+        <h1>
+          Welcome to my Portfolio Site!
+        </h1>,
+        <p>
+          Feel free to explore and check out my projects
+        </p>,
+        <a
+          className="portfolio-github-link"
+          href="https://github.com/raualex/portfolio-site"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Click here to see the code for this site
+        </a>,
+        <p>
+          This site was built using:
+        </p>,
+        <div
+          className="landing-logo-container"
+        >
+          <img
+            alt="react logo"
+            className="landing-logos-react"
+            src="react-logo.png"
+          />
+          <img
+            alt="react router logo"
+            className="landing-logos-react-router"
+            src="react-router-logo.png"
+          />
+          <img
+            alt="redux logo"
+            className="landing-logos-redux"
+            src="redux-logo.png"
+          />
+          <img
+            alt="css logo"
+            className="landing-logos-css"
+            src="css3_logo.svg"
+          />
+        </div>,
+        <p>
+          This site was tested using:
+        </p>,
+        <div
+          className="testing-logo-container"
+        >
+          <img
+            alt="enzyme and jest logos"
+            className="testing-logos"
+            src="enzyme-jest.png"
+          />
+          <img
+            alt="travis ci logo"
+            className="testing-logos"
+            src="travisCI-logo.png"
+          />
+        </div>,
+      ],
+      "className": "lp-container",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Landing Page!",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Welcome to my Portfolio Site!",
+        },
+        "ref": null,
+        "rendered": "Welcome to my Portfolio Site!",
+        "type": "h1",
       },
-      "ref": null,
-      "rendered": "Landing Page!",
-      "type": "h1",
-    },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Feel free to explore and check out my projects",
+        },
+        "ref": null,
+        "rendered": "Feel free to explore and check out my projects",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Click here to see the code for this site",
+          "className": "portfolio-github-link",
+          "href": "https://github.com/raualex/portfolio-site",
+          "rel": "noopener noreferrer",
+          "target": "_blank",
+        },
+        "ref": null,
+        "rendered": "Click here to see the code for this site",
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "This site was built using:",
+        },
+        "ref": null,
+        "rendered": "This site was built using:",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="react logo"
+              className="landing-logos-react"
+              src="react-logo.png"
+            />,
+            <img
+              alt="react router logo"
+              className="landing-logos-react-router"
+              src="react-router-logo.png"
+            />,
+            <img
+              alt="redux logo"
+              className="landing-logos-redux"
+              src="redux-logo.png"
+            />,
+            <img
+              alt="css logo"
+              className="landing-logos-css"
+              src="css3_logo.svg"
+            />,
+          ],
+          "className": "landing-logo-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "react logo",
+              "className": "landing-logos-react",
+              "src": "react-logo.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "react router logo",
+              "className": "landing-logos-react-router",
+              "src": "react-router-logo.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "redux logo",
+              "className": "landing-logos-redux",
+              "src": "redux-logo.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "css logo",
+              "className": "landing-logos-css",
+              "src": "css3_logo.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "This site was tested using:",
+        },
+        "ref": null,
+        "rendered": "This site was tested using:",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="enzyme and jest logos"
+              className="testing-logos"
+              src="enzyme-jest.png"
+            />,
+            <img
+              alt="travis ci logo"
+              className="testing-logos"
+              src="travisCI-logo.png"
+            />,
+          ],
+          "className": "testing-logo-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "enzyme and jest logos",
+              "className": "testing-logos",
+              "src": "enzyme-jest.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "travis ci logo",
+              "className": "testing-logos",
+              "src": "travisCI-logo.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": "div",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -44,22 +288,266 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-          Landing Page!
-        </h1>,
+        "children": Array [
+          <h1>
+            Welcome to my Portfolio Site!
+          </h1>,
+          <p>
+            Feel free to explore and check out my projects
+          </p>,
+          <a
+            className="portfolio-github-link"
+            href="https://github.com/raualex/portfolio-site"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Click here to see the code for this site
+          </a>,
+          <p>
+            This site was built using:
+          </p>,
+          <div
+            className="landing-logo-container"
+          >
+            <img
+              alt="react logo"
+              className="landing-logos-react"
+              src="react-logo.png"
+            />
+            <img
+              alt="react router logo"
+              className="landing-logos-react-router"
+              src="react-router-logo.png"
+            />
+            <img
+              alt="redux logo"
+              className="landing-logos-redux"
+              src="redux-logo.png"
+            />
+            <img
+              alt="css logo"
+              className="landing-logos-css"
+              src="css3_logo.svg"
+            />
+          </div>,
+          <p>
+            This site was tested using:
+          </p>,
+          <div
+            className="testing-logo-container"
+          >
+            <img
+              alt="enzyme and jest logos"
+              className="testing-logos"
+              src="enzyme-jest.png"
+            />
+            <img
+              alt="travis ci logo"
+              className="testing-logos"
+              src="travisCI-logo.png"
+            />
+          </div>,
+        ],
+        "className": "lp-container",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Landing Page!",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Welcome to my Portfolio Site!",
+          },
+          "ref": null,
+          "rendered": "Welcome to my Portfolio Site!",
+          "type": "h1",
         },
-        "ref": null,
-        "rendered": "Landing Page!",
-        "type": "h1",
-      },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Feel free to explore and check out my projects",
+          },
+          "ref": null,
+          "rendered": "Feel free to explore and check out my projects",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Click here to see the code for this site",
+            "className": "portfolio-github-link",
+            "href": "https://github.com/raualex/portfolio-site",
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+          },
+          "ref": null,
+          "rendered": "Click here to see the code for this site",
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "This site was built using:",
+          },
+          "ref": null,
+          "rendered": "This site was built using:",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="react logo"
+                className="landing-logos-react"
+                src="react-logo.png"
+              />,
+              <img
+                alt="react router logo"
+                className="landing-logos-react-router"
+                src="react-router-logo.png"
+              />,
+              <img
+                alt="redux logo"
+                className="landing-logos-redux"
+                src="redux-logo.png"
+              />,
+              <img
+                alt="css logo"
+                className="landing-logos-css"
+                src="css3_logo.svg"
+              />,
+            ],
+            "className": "landing-logo-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "react logo",
+                "className": "landing-logos-react",
+                "src": "react-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "react router logo",
+                "className": "landing-logos-react-router",
+                "src": "react-router-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "redux logo",
+                "className": "landing-logos-redux",
+                "src": "redux-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "css logo",
+                "className": "landing-logos-css",
+                "src": "css3_logo.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "This site was tested using:",
+          },
+          "ref": null,
+          "rendered": "This site was tested using:",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="enzyme and jest logos"
+                className="testing-logos"
+                src="enzyme-jest.png"
+              />,
+              <img
+                alt="travis ci logo"
+                className="testing-logos"
+                src="travisCI-logo.png"
+              />,
+            ],
+            "className": "testing-logo-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "enzyme and jest logos",
+                "className": "testing-logos",
+                "src": "enzyme-jest.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "travis ci logo",
+                "className": "testing-logos",
+                "src": "travisCI-logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],
@@ -75,7 +563,9 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
-          "getDerivedStateFromProps": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,

@@ -33,13 +33,15 @@ describe('Sidebar', () => {
 
 describe('mapStateToProps function', () => {
   
-  it('should return object with selected Navigation item', () => {
+  it('should return object with selected Navigation item and selected Project', () => {
     const mockState = {
       selectedNav: 'Bio',
+      selectedProj: '',
       somethingElse: 'Not Bio'
     }
     const expected = {
-      selectedNav: 'Bio'
+      selectedNav: 'Bio',
+      selectedProj: ''
     }
     const mappedProps = mapStateToProps(mockState)
     expect(mappedProps).toEqual(expected)

@@ -12,6 +12,7 @@ import { withRouter, Switch, Route } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 export class App extends Component {
+  
   render() {
     let { selectedProj, selectedNav } = this.props
     let modal;

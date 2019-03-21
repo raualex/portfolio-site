@@ -1,0 +1,61 @@
+.lp-container {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 600px;
+  overflow: auto;
+}
+
+.landing-logo-container,
+.testing-logo-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.landing-logos-react {
+  height: 102px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 240px;
+}
+
+.landing-logos-react-router {
+  height: 100px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 5px;
+  width: 244px;
+}
+
+.landing-logos-redux {
+  height: 90px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+  width: 250px;
+}
+
+.landing-logos-css {
+  height: 158px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+  width: 270px;
+}
+
+.testing-logos {
+  height: 90px;
+  margin-bottom: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+  width: 270px;
+}
